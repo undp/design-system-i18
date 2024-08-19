@@ -24,21 +24,10 @@
 <link rel="alternate" hreflang="zh" href="{{@root.root}}zh/" />
 <link rel="alternate" hreflang="ja" href="{{@root.root}}ja/" />
 <link rel="alternate" hreflang="ko" href="{{@root.root}}ko/" />
-<!-- Noto Sans -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Noto Sans Arabic -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap" rel="stylesheet">
-<!-- Noto Sans Georgian -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
-<!-- Noto Sans Khmer -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap" rel="stylesheet">
-<!-- Chinese -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
-<!-- Japanese -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-<!-- Korean -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Khmer:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 {{#each @root.ds}}
   <link rel="preload" href="{{../cdn}}css/{{this}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
