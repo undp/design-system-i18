@@ -1,0 +1,353 @@
+  <!doctype html>
+  <html class="no-js" lang="zh">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+      <title>字体检查</title>
+      <meta name="description" content="" />
+      <link rel="canonical" href="zh/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="" />
+      <meta property="og:site_name" content="undp" />
+      <meta property="og:url" content="zh/" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="assets/img/" />
+      <meta property="og:image:width" content="1440" />
+      <meta property="og:image:height" content="768" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@undp" />
+      <link rel="alternate" hreflang="en" href="../" />
+      <link rel="alternate" hreflang="ar" href="../ar/" />
+      <link rel="alternate" hreflang="az" href="../az/" />
+      <link rel="alternate" hreflang="ku" href="../ku/" />
+      <link rel="alternate" hreflang="ka" href="../ka/" />
+      <link rel="alternate" hreflang="km" href="../km/" />
+      <link rel="alternate" hreflang="ne" href="../ne/" />
+      <link rel="alternate" hreflang="zh" href="../zh/" />
+      <link rel="alternate" hreflang="ja" href="../ja/" />
+      <link rel="alternate" hreflang="ko" href="../ko/" />
+      <!-- Noto Sans -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- Noto Sans Arabic -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Georgian -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Khmer -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Chinese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Japanese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Korean -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+      
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/base-minimal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/input-fields.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/country-site-header.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/accordion.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/language-switcher.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/buttons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/newsletter-signup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="../assets/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      
+      <style>
+        .country-header .header .top-right>:last-child {
+          margin-inline-end: 4rem;
+        }
+      </style>
+      
+      <style>
+        body {
+          font-family: "Noto Sans SC", sans-serif;
+        	--undpds-font-family-proximanova: "Noto Sans SC", sans-serif;
+        	--undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+        }
+
+        input[type=text] {
+          font-family: "Noto Sans SC", sans-serif;
+        }
+
+        pre {
+          font-family: "Noto Sans SC", sans-serif;
+        }
+      </style>  
+    </head>
+    <body id="top">
+  
+      <header class="country-header">
+      	<div class="header">
+      		<div class="grid-container fluid">
+      			<div class="grid-x grid-margin-x">
+      				<div class="cell large-9 small-8 align-self-middle top-left">
+      					<a href="https://www.undp.org" class="logo">
+      						<img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-blue.svg" alt="UNDP Logo" />
+      					</a>
+      				</div>
+      				<div class="cell large-3 small-3 top-right language-switcher">
+      					<div class="dropdown-language">
+      						<button aria-expanded="false" class="blue"><span>中文</span></button>
+      						<ul role="menu">
+      							
+      									<li role="menuitem">
+      										<a href="../" lang="en" hreflang="en" tabindex="-1">English</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ar/" lang="ar" hreflang="ar" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">العربية (Arabic)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../az/" lang="az" hreflang="az" tabindex="-1">Azərbaycan dili (Azerbaijani)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ku/" lang="ku" hreflang="ku" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">كوردی (Kurdish)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ka/" lang="ka" hreflang="ka" tabindex="-1" style="font-family: 'Noto Sans Georgian', sans-serif">ქართული (Georgian)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../km/" lang="km" hreflang="km" tabindex="-1" style="font-family: 'Noto Sans Khmer', sans-serif">ខ្មែរ (Khmer)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ne/" lang="ne" hreflang="ne" tabindex="-1">नेपाली (Nepali)</a>
+      									</li>
+      														
+      									<li role="menuitem">
+      										<a href="../ja/" lang="ja" hreflang="ja" tabindex="-1" style="font-family: 'Noto Sans JP', sans-serif">日本語 (Japanese)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
+      									</li>
+      						</ul>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </header><main class="homepage">
+          
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="cell">
+              <div class="example">
+                  <div class="coh-container cell small-12 large-9" > <h2 class="coh-heading article-title" > 2023/24年人类发展报告：富裕国家人类发展创纪录，半数贫穷国家发展出现倒退 </h2>    <div class="coh-inline-element article-text"> <p class="coh-paragraph" >政治极化与信任危机日益加剧，全球应对挑战的进程陷入僵局。</p> </div><h6 class="posted-date"> 2024年3月13日</h6></div> <figure class="coh-inline-element ssa-component coh-component ssa-component-instance-ee24cb44-0821-4a23-be35-7a81c50ead70 coh-component-instance-ee24cb44-0821-4a23-be35-7a81c50ead70 portrait"><img src="https://www.undp.org/sites/g/files/zskgke326/files/2024-04/hdr_cn.jpg" width="612" height="792" alt="" loading="lazy" /></figure> <div class="coh-container ssa-component coh-component ssa-component-instance-d20859ed-6228-47b4-8cfe-9dcc4931826b coh-component-instance-d20859ed-6228-47b4-8cfe-9dcc4931826b coh-style-padding-top-bottom-large ssa-instance-97cf140bdecf4c9aa8b1e2ae1d6b96f4 coh-ce-cpt_row_for_columns-5f467588"> <div class="coh-container"> <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights='{"xl":{"target":"none"}}'> <div class="coh-row-inner yellow ssa-instance-97cf140bdecf4c9aa8b1e2ae1d6b96f4 coh-ce-cpt_row_for_columns-544cba20"> <div class="coh-column ssa-component coh-component ssa-component-instance-8e75fd08-4580-4505-bcc7-5ee9744a2dd6 coh-component-instance-8e75fd08-4580-4505-bcc7-5ee9744a2dd6 coh-ce-cpt_column-9431213c coh-visible-xs coh-col-xs-12 coh-col-xs-push-0 coh-col-xs-pull-0 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-7 coh-visible-xl coh-col-xl-7"> <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-fc2c7b76-69d7-4632-925c-3ebb14d171af coh-component-instance-fc2c7b76-69d7-4632-925c-3ebb14d171af"> <p class="p1"><strong>3月14日，北京</strong>——联合国开发计划署发布的《2023/24年人类发展报告》显示，不均衡的发展进程正在加剧全球性的不平等，这不仅导致最贫困群体在发展中掉队，也加剧了世界范围的政治极化。只有全人类共同行动，才有望打破这一危险僵局。&nbsp;</p> <p class="p1">《2023/24年人类发展报告打破僵局》：“在两极分化的世界中重塑合作”（以下简称为“报告”）指出一个令人担忧的趋势：尽管全球人类发展指数（HDI）在2023年恢复上升趋势，但这一回升是不完全、不彻底且不平等的。&nbsp;</p> <p class="p1">人类发展指数（HDI）是联合国开发计划署提出的用以来衡量一个国家的健康、教育及生活水平的指标。经预计，人类发展指数在经历了2020年和2021年的大幅下滑后，在2023年回升并达到历史最高水平。但是，这种回升仍是非常不均衡的。富裕国家的人类发展水平创下历史新高，而世界上一半贫穷国家仍低于疫情前。&nbsp;</p> <p class="p1">经济的高度集中加剧了全球不平等现象。如报告所述，全球近40%的商品贸易集中在三个甚至更少的国家；在2021年，世界上最大的三家科技公司的市值都超过了当年90%以上国家的国内生产总值。&nbsp;</p> <p class="p1">联合国开发计划署署长阿奇姆•施泰纳表示：“报告揭示了不断扩大的人类发展差距，这表明，二十年来富裕和贫困国家之间发展差距逐步减少的趋势正在逆转。尽管全球社会紧密相连，但还远远不够。我们必须利用我们的相互依存关系和能力来应对共同的生存挑战，并确保人民的愿望得到满足。这种僵局导致了巨大的代价。如果不能采取一致行动，应对气候变化、数字化以及贫困和不平等问题，不仅阻碍人类发展，还会加剧两极分化，进一步侵蚀世界各国人民和机构的信任。”&nbsp;</p> <p class="p1">报告认为，推进国际一致行动受到新出现的“民主悖论”的阻碍：根据报告的数据分析，尽管全世界90%的人支持民主，但超过一半的全球调查受访者表示支持那些绕过民主进程基本规则破坏民主的领导人。在全球接受调查的人中，一半的人表示对自己的生活没有控制力或只有有限的控制力，超过三分之二的人认为他们对政府的决定几乎没有影响力。&nbsp;</p> <p class="p1">政治极化也日益成为引发全球影响的问题。报告笔者表示，政治极化不仅会引发无力感，还助长了各国采取向内看的政策措施——这与解决经济脱碳、数字技术滥用和冲突等紧迫问题所需的全球合作背道而驰。特别是考虑到2023年破纪录的气温，凸显采取联合行动应对气候危机的迫切需要，或人工智能作为一个快速发展的新技术前沿，却几乎或根本没有相应的政策监管这些问题，这些趋势都警示人们应该更加关注政治两极化的深刻影响。&nbsp;</p> <p class="p1">报告强调，在当今世界，全球经济的相互依存度仍然很高，去全球化既不可行，也不现实。报告指出，没有一个地区能够接近自给自足，所有地区都至少有一种主要类型的商品和服务依赖于从其他地区进口25%或以上。&nbsp;</p> <p class="p1">阿奇姆补充道：“在一个两极分化和分裂加剧的世界里，忽视相互投资对我们的福祉和安全构成严重威胁。保护主义的方法无法解决我们所面临的相互关联的复杂挑战，包括疫情预防、气候变化和数字监管等。我们面对相互交织的问题，需要同样相互关联的解决方案。通过强调能源转型和人工智能对人类发展的好处，我们有机会打破僵局，重燃对共同未来的承诺。&nbsp;</p> <p class="p1">报告强调全球的相互依存关系正在被重塑，呼吁打造新一代的全球公共产品。报告指出了需要立即采取行动的四个领域：&nbsp;</p> <ul>
+        <li>
+          <p class="p1">地球公共产品，针对气候稳定和应对气候变化危机，因为我们面临前所未有的‘人类世’挑战；&nbsp;</p>
+        </li>
+        <li>
+          <p class="p1">全球数字公共产品，在利用新技术促进人类公平发展方面实现更大的公平性；&nbsp;</p>
+        </li>
+        <li>
+          <p class="p1">新型普惠金融机制，包括开辟国际合作新渠道，补充对低收入国家的人道主义援助和传统发展援助；&nbsp;</p>
+        </li>
+        <li>
+          <p class="p1">通过新的治理方式来缓解“政治极化”的问题。这种新治理方式侧重于提高人民在审议中的声音，有助于打击虚假信息。&nbsp;</p>
+        </li>
+      </ul> <p class="p1">报告强调全球的相互依存关系正在被重塑，呼吁打造新一代的全球公共产品。报告指出了需要立即采取行动的四个领域：&nbsp;</p> </div> </div> </div> </div> </div> </div>
+      
+              </div>
+              <div class=" font-check">
+                  <h1 class="title">字体检查</h1>
+          
+                  <h2 class="heading">第二级标题</h2>
+          
+                  <h3 class="heading">第三级标题</h3>
+          
+                  <h4 class="heading">第四级标题</h4>
+          
+                  <h5 class="heading">第五级标题</h5>
+          
+                  <h6 class="heading">第六级标题</h6>
+          
+                  <p class="paragraph">
+                      这是 <strong>粗体文本</strong>,<br> 这是 <b>使用 &lt;b&gt; 标签的粗体文本</b>.<br>
+      这里你可以看到 <em>斜体文本</em>,<br> 这是 <i>使用 &lt;i&gt; 标签的斜体文本</i>.<br>
+      这段文本是 <u>下划线文本</u>，使用 &lt;u&gt; 标签。
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      <small>这是使用 &lt;small&gt; 标签的小文本</small><br>
+      这是正常文本，包含 <sub>下标</sub> 和 <sup>上标</sup>.<br>
+      这里是 <mark>高亮文本</mark>，使用 &lt;mark&gt; 标签.<br>
+      <del>这段文本已删除</del>，使用 &lt;del&gt; 标签,<br> 这是 <ins>带下划线的文本</ins>，使用 &lt;ins&gt; 标签。
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      右向左显示文本: <bdo dir="rtl">从右到左书写的文本。</bdo><br>
+      左向右显示文本: <bdo dir="ltr">从左到右书写的文本。</bdo>
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      你可以这样显示代码: <code>let x = 10;</code>.
+      
+                  </p>
+              
+                  <pre class="paragraph">
+                      这段文本被显示
+                      保留空格和
+                      新行。
+      
+                  </pre>
+              
+                  <div>
+                      <blockquote class="paragraph">
+          <p>
+            这是一个通常用于强调重要文本或表达的引用。
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          简短引用: <q>这是一个简短的引用。</q>
+      </p>
+      <p class="paragraph">
+          这段文本是一个缩略词: <abbr title="层叠样式表">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          表示引用的文本: <cite>这段引用来自书籍 "1984"。</cite>
+      </p>
+      <p class="paragraph">
+          键盘输入: <kbd>Ctrl + C</kbd>.<br>
+          程序输出: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (程序中的变量)。
+      </p>
+      <ul>
+          <li>第一项列表</li>
+          <li>第二项列表</li>
+          <li>第三项列表</li>
+      </ul>
+      <p class="paragraph">
+          表单元素的标签: <label for="input">请输入您的名字:</label><br>
+          <input type="text" id="input" placeholder="您的名字">
+      </p>
+      <p class="paragraph">
+          操作按钮: <button>点击我</button>.
+      </p>
+      
+                  </div>
+              
+                  <div>
+                      <section>
+          <article>
+              <h6 class="heading">文章</h6>
+              <p>这是一个独立的内容块。</p>
+          </article>
+          <aside>
+              <p>这段文本是侧边内容。</p>
+          </aside>
+      </section>
+      
+                  </div>
+              
+                  <address>
+                      作者: 约翰·史密斯<br>
+      电子邮件: john@example.com
+      
+                  </address>
+              
+                  <table>
+                      <br>
+      <caption>
+          火车时刻表
+      </caption>
+      <thead>
+          <tr>
+              <th>火车编号</th>
+              <th>路线</th>
+              <th>旅行时间</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>伦敦 - 巴黎</td>
+              <td>5 小时</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>纽约 - 芝加哥</td>
+              <td>7 小时</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>奥斯陆 - 华沙</td>
+              <td>4 小时</td>
+          </tr>
+      </tbody>
+      
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="grid-x">
+          <div class="cell medium-10 medium-offset-1">
+            <div class="grid-x footer-top">
+              <div class="cell medium-5">
+                <div class="footer-logo">
+                  <a href="https://www.undp.org">
+                    <img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-white.svg" alt="UNDP Logo" />
+                  </a>
+                  <h5 class="" tabindex="0" data-viewport="false">
+                    联合国 <br>开发计划署
+                  </h5>
+                </div>
+              </div>
+              <div class="cell medium-5 show-large">
+                <ul class="footer-icons">
+                  <li><a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a></li>
+                  <li><a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a></li>
+                  <li>
+                    <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                  </li>
+                  <li><a href="https://twitter.com/undp/" class="twitter-x" title="Twitter">twitter</a></li>
+                  <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-x footer-bottom">
+              <div class="cell medium-5">
+                <p tabindex="0">© 2024 联合国开发计划署</p>
+              </div>
+              <div class="cell medium-6">
+                <ul class="footer-lists">
+                  <li><a href="https://www.undp.org/copyright-terms-use">使用条款</a></li>
+                </ul>
+                <div class="show-small">
+                  <ul class="footer-icons">
+                    <li>
+                      <a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                    </li>
+                    <li><a href="https://twitter.com/undp/" class="twitter" title="Twitter">twitter</a></li>
+                    <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="../assets/js/app.js"></script>
+  
+    </body>
+  </html>
+  

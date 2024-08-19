@@ -1,0 +1,340 @@
+  <!doctype html>
+  <html class="no-js" lang="ka">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+      <title>შრიფტის შემოწმება</title>
+      <meta name="description" content="" />
+      <link rel="canonical" href="ka/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="" />
+      <meta property="og:site_name" content="undp" />
+      <meta property="og:url" content="ka/" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="assets/img/" />
+      <meta property="og:image:width" content="1440" />
+      <meta property="og:image:height" content="768" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@undp" />
+      <link rel="alternate" hreflang="en" href="../" />
+      <link rel="alternate" hreflang="ar" href="../ar/" />
+      <link rel="alternate" hreflang="az" href="../az/" />
+      <link rel="alternate" hreflang="ku" href="../ku/" />
+      <link rel="alternate" hreflang="ka" href="../ka/" />
+      <link rel="alternate" hreflang="km" href="../km/" />
+      <link rel="alternate" hreflang="ne" href="../ne/" />
+      <link rel="alternate" hreflang="zh" href="../zh/" />
+      <link rel="alternate" hreflang="ja" href="../ja/" />
+      <link rel="alternate" hreflang="ko" href="../ko/" />
+      <!-- Noto Sans -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- Noto Sans Arabic -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Georgian -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Khmer -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Chinese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Japanese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Korean -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+      
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/base-minimal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/input-fields.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/country-site-header.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/accordion.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/language-switcher.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/buttons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/newsletter-signup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="../assets/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      
+      <style>
+        .country-header .header .top-right>:last-child {
+          margin-inline-end: 4rem;
+        }
+      </style>
+      
+      <style>
+        body {
+          font-family: "Noto Sans Georgian", sans-serif;
+        	--undpds-font-family-proximanova: "Noto Sans Georgian", sans-serif;
+        	--undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+        }
+
+        input[type=text] {
+          font-family: "Noto Sans Georgian", sans-serif;
+        }
+
+        pre {
+          font-family: "Noto Sans Georgian", sans-serif;
+        }
+      </style>  
+    </head>
+    <body id="top">
+  
+      <header class="country-header">
+      	<div class="header">
+      		<div class="grid-container fluid">
+      			<div class="grid-x grid-margin-x">
+      				<div class="cell large-9 small-8 align-self-middle top-left">
+      					<a href="https://www.undp.org" class="logo">
+      						<img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-blue.svg" alt="UNDP Logo" />
+      					</a>
+      				</div>
+      				<div class="cell large-3 small-3 top-right language-switcher">
+      					<div class="dropdown-language">
+      						<button aria-expanded="false" class="blue"><span>ქართული</span></button>
+      						<ul role="menu">
+      							
+      									<li role="menuitem">
+      										<a href="../" lang="en" hreflang="en" tabindex="-1">English</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ar/" lang="ar" hreflang="ar" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">العربية (Arabic)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../az/" lang="az" hreflang="az" tabindex="-1">Azərbaycan dili (Azerbaijani)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ku/" lang="ku" hreflang="ku" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">كوردی (Kurdish)</a>
+      									</li>
+      														
+      									<li role="menuitem">
+      										<a href="../km/" lang="km" hreflang="km" tabindex="-1" style="font-family: 'Noto Sans Khmer', sans-serif">ខ្មែរ (Khmer)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ne/" lang="ne" hreflang="ne" tabindex="-1">नेपाली (Nepali)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../zh/" lang="zh" hreflang="zh" tabindex="-1" style="font-family: 'Noto Sans SC', sans-serif">中文 (Chinese)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ja/" lang="ja" hreflang="ja" tabindex="-1" style="font-family: 'Noto Sans JP', sans-serif">日本語 (Japanese)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
+      									</li>
+      						</ul>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </header><main class="homepage">
+          
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="cell">
+              <div class="example">
+                  <div class="coh-container cell small-12 large-9" > <h2 class="coh-heading article-title" > შავი ზღვის ბიომრავალფეროვნების სადარაჯოზე </h2>    <div class="coh-inline-element article-text"> <p class="coh-paragraph" >ევროკავშირისა და გაეროს განვითარების პროგრამის ხელშეწყობით, სკოლის მოსწავლეები შავი ზღვის ეკოსისტემას სწავლობენ</p> </div> <h6 class="posted-date"> 22 May 2024</h6> </div> <figure class="coh-inline-element ssa-component coh-component ssa-component-instance-7a177a36-60eb-4312-989e-e0d2d9093372 coh-component-instance-7a177a36-60eb-4312-989e-e0d2d9093372 wide"><img src="https://www.undp.org/sites/g/files/zskgke326/files/2024-05/2.4_afaliny_2019_balakl_gladilina_img_1116a.jpg" width="2680" height="1790" alt="Black Sea Dolphin Monitoring" title="Black Sea Dolphin Monitoring" loading="lazy" /><figcaption class="coh-inline-element">     <div class="coh-inline-element credits">ფოტოს ავტორი: UNDP უკრაინა/ელენა გლადილინა</div>  </figcaption>  </figure> <div class="coh-container ssa-component coh-component ssa-component-instance-49f48f6d-1466-471e-8d73-e8d74b429bf1 coh-component-instance-49f48f6d-1466-471e-8d73-e8d74b429bf1  coh-style-padding-top-bottom-large ssa-instance-f935727ce79fa14e2e0b6d6248403166 coh-ce-cpt_row_for_columns-5f467588" >  <div class="coh-container " > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner yellow ssa-instance-f935727ce79fa14e2e0b6d6248403166 coh-ce-cpt_row_for_columns-544cba20">            <div class="coh-column ssa-component coh-component ssa-component-instance-660d54e3-4711-4a9e-a80b-286e43b93a26 coh-component-instance-660d54e3-4711-4a9e-a80b-286e43b93a26 coh-ce-cpt_column-9431213c coh-visible-xs coh-col-xs-12 coh-col-xs-push-0 coh-col-xs-pull-0 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-7 coh-visible-xl coh-col-xl-7" >         <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-f1009abd-46c1-4599-b9e6-e09b6d83b908 coh-component-instance-f1009abd-46c1-4599-b9e6-e09b6d83b908"  >    <p>ანაკლიის, ბათუმის, ბობოყვათის, გონიოს, ქობულეთისა და ფოთის საჯარო სკოლების მოსწავლეები დელფინების მონიტორინგში ჩაერთნენ. მოსწავლეთა ჯგუფი ათდღიანი ინტერვალებით ახორციელებს დელფინების მონიტორინგს საქართველოს სანაპიროზე და სპეციალური პროტოკოლების მეშვეობით აღრიცხავს მათ გამოჩენას სხვადასხვა ლოკაციაზე, მათ შორის ფოთსა და გონიოში.</p><p>ახალგაზრდების საგანმანათლებლო მოგზაურობა სასწავლო სემინარებით დაიწყო, რომელთაც ბათუმის შოთა რუსთაველის სახელობის სახელმწიფო უნივერსიტეტი მასპინძლობდა. სემინარების მსვლელობაში, მოზარდები შავი ზღვის გამოცდილ მკვლევარებს შეხვდნენ და ზღვის ბიომრავალფეროვნებაზე, ეკოსისტემის საფრთხეებსა და ზღვის დაცვისა და შენარჩუნების გზებზე უამრავი ინფორმაცია მიიღეს.</p><p>სემინარების ყველაზე აქტიური და დაინტერესებული მონაწილეები თავად ჩაერთნენ ზღვის ბიომრავალფეროვნების კვლევაში და ამჟამად საკუთარი წვლილი შეაქვთ შავი ზღვის შესწავლისა და დაცვის საქმეში.</p><p>მომავალი თვეების მანძილზე, მოზარდები ასევე ჩაერთვებიან სხვადასხვა სახის საგანმანათლებლო და გარემოსდაცვით აქტივობაში, მათ შორის, სანაპიროს დასუფთავებასა და დაცულ ტერიტორიებზე ლაშქრობებში. საგანმანათლებლო მოგზაურობის დასკვნითი ღონისძიება ოქტომბრის ბოლოს, ბათუმში, შავი ზღვის დღეს გაიმართება.</p><p>ამ ახალგაზრდული საგანმანათლებლო ინიციატივის მხარდამჭერები არიან ევროკავშირი და გაეროს განვითარების პროგრამა საქართველოს გარემოს&nbsp;დაცვისა და სოფლის მეურნეობის სამინისტროს გარემოს ეროვნულ სააგენტოსთან თანამშრომლობით.&nbsp;</p><p>ინიციატივა ხორციელდება ევროკავშირისა და&nbsp;UNDP-ის რეგიონული პროექტის „ევროკავშირი შავი ზღვის გარემოს მონიტორინგის გაუმჯობესებისთვის“ (<a href="https://emblasproject.org/">EU4EMBLAS</a>)&nbsp;ფარგლებში, საქართველოსა და უკრაინის მთავრობებთან პარტნიორობით.</p><p>2014-2019 წლებში, EU4EMBLAS პროექტის ფარგლებში, ჩატარდა შავი ზღვის ეკოლოგიური მდგომარეობის რამდენიმე კვლევა საერთაშორისო მკვლევარების ჩართულობით.&nbsp;</p><p>აღნიშნული კვლევების ბოლო&nbsp;<a href="https://emblasproject.org/wp-content/uploads/2022/03/EMBLAS_Scientific-Report_ISBN-978-617-8111-01-4-web.pdf">ანგარიში</a> 2020 წელს გამოქვეყნდა. დოკუმენტში მოყვანილი იყო შავი ზღვის ეკოსისტემის მონიტორინგის ყოვლისმომცველი შედეგები იმ დროისთვის არსებული გამოწვევისა და დადებითი ტენდენციის ჩათვლით. საქართველოს სანაპირო ზოლისა და ზღვის მონიტორინგის შედეგად, კვლევამ სხვდასხვა სახის ეკოლოგიური საფრთხე გამოავლინა, მათ შორის, სანაპიროს პლასტმასით დაბინძურება (90.5 ნივთი 1 კვადრატულ კილომეტრზე), 2,000 მეტრის სიღრმეზე მიკროპლასტმასის არსებობა, ქიმიური დაბინძურება და ინვაზიური, ანუ შემოჭრილი, სახეობების რიცხვის ზრდა.&nbsp;</p><p>დადებით ტენდენციებს შორის აღინიშნებოდა დაბინძურებისადმი მგრძნობიარე სახეობების მედეგობის გაზრდა და ევროპული ხამანწკის დაბრუნება, რომელიც 1940-იანი წლებიდან გადაშენებულ სახეობად ითვლებოდა.</p><p>ევროკავშირისა და UNDP-ის თანამშრომლობა საქართველოსა და უკრაინის მთავრობებთან, საგანმანათლებლო დაწესებულებებთან, სამოქალაქო საზოგადოებასა და მოსახლეობასთან EU4EMBLAS პროექტის მიმდინარე ფაზაში, 2025 წლის აპრილამდე გაგრძელდება. სხვა აქტივობებთან ერთად, პროექტის ფარგლებში გათვალისწინებულია საგანმანათლებლო საქმიანობის ხელშეწყობა, ზღვისა და სანაპირო ზოლის დაბინძურების შემცირება და რეკომენდაციების შემუშავება შავი ზღვის ეკოსისტემის დაცვისთვის.</p><h5><strong>EU4EMBLAS&nbsp;პროექტის შესახებ:</strong></h5><p>ევროკავშირისა და&nbsp;UNDP-ის რეგიონული პროექტი „ევროკავშირი შავი ზღვის გარემოსდაცვითი მონიტორინგის გაუმჯობესებისთვის“&nbsp;(EU4EMBLAS) საქართველოსა და უკრაინის მთავრობებთან მჭიდრო თანამშრომლობის პირობებში ხორციელდება და შავი ზღვის ბიომრავალფეროვნების მონიტორინგსა და დაცვას ემსახურება. პროექტის მიმდინარე ფაზა მიზნად ისახავს მონიტორინგის მხრივ არსებული შესაძლებლობების გაღრმავებას და შავი ზღვის ბიომრავალფეროვნების შესახებ საზოგადოებრივი ცნობიერების ამაღლებას ევროკავშირის სტანდარტებისა და დირექტივების, მათ შორის, ევროკავშირის საზღვაო სტრატეგიის ჩარჩო დირექტივისა (MSFD) და წყლის ჩარჩო დირექტივის (WDF) შესაბამისად. 2013 წლიდან, პროექტის ბიუჯეტი 6.65 მილიონ ევროს შეადგენს. დამატებითი ინფორმაციისთვის, ეწვიეთ <a href="https://emblasproject.org">ვებგვერდს</a>.</p><h5><strong>ევროკავშირის შესახებ:</strong></h5><p>ევროკავშირისა და საქართველოს თანამშრომლობა ოცდაათ წელს ითვლის. ევროკავშირი&nbsp; მხარში უდგას საქართველოს წინსვლასა და განვითარებას როგორც ცოდნისა და გამოცდილების გაზიარებითა და ექსპერტიზისა და ინოვაციის ხელშეწყობით, ისე ფინანსური მხარდაჭერით. ევროკავშირსა და საქართველოს შორის ურთიერთობა ეფუძნება მშვიდობის, თავისუფლების, დემოკრატიის, ადამიანის უფლებებისა და მდგრადი ეკონომიკური განვითარების საერთო ღირებულებებს. დამატებითი ინფორმაცია იხილეთ EU4Georgia&nbsp;<a href="https://eu4georgia.eu/ka/evrokavshiri-sakartveloshi/">ვებგვერდზე</a>.</p><h5><strong>საკონტაქტო ინფორმაცია:</strong></h5><ul><li>ოლენა მარუშევსკა, EU4EMBLAS,&nbsp;<a href="mailto:bluerivers.ukraine@gmail.com">bluerivers.ukraine@gmail.com</a></li><li>სოფო ჭიჭინაძე, UNDP, +995 196907,&nbsp;<a href="mailto:sophie.tchitchinadze@undp.org">sophie.tchitchinadze@undp.org</a></li><li>ირა სულავა, UNDP, +995 599 579105,&nbsp;<a href="mailto:irine.sulava@undp.org">irine.sulava@undp.org</a></li></ul> </div> </div></div> </div> </div> </div>
+      
+              </div>
+              <div class=" font-check">
+                  <h1 class="title">შრიფტის შემოწმება</h1>
+          
+                  <h2 class="heading">მეორე დონის სათაური</h2>
+          
+                  <h3 class="heading">მესამე დონის სათაური</h3>
+          
+                  <h4 class="heading">მეოთხე დონის სათაური</h4>
+          
+                  <h5 class="heading">მეხუთე დონის სათაური</h5>
+          
+                  <h6 class="heading">მეექვსე დონის სათაური</h6>
+          
+                  <p class="paragraph">
+                      ეს არის <strong>გამოკვეთილი ტექსტი</strong>,<br> და ეს არის <b>გამოკვეთილი ტექსტი &lt;b&gt; ტეგის გამოყენებით</b>.<br>
+      აქ არის <em>იტალიური ტექსტი</em>,<br> და ეს არის <i>იტალიური ტექსტი &lt;i&gt; ტეგის გამოყენებით</i>.<br>
+      ეს ტექსტი არის <u>ხაზგასმული</u> &lt;u&gt; ტეგის გამოყენებით.
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      <small>ეს არის მცირე ტექსტი &lt;small&gt; ტეგის გამოყენებით</small><br>
+      ეს არის ნორმალური ტექსტი <sub>ქვედა ინდექსით</sub> და <sup>ზედა ინდექსით</sup>.<br>
+      აქ არის <mark>მონიშნული ტექსტი</mark> &lt;mark&gt; ტეგის გამოყენებით.<br>
+      <del>ეს ტექსტი არის წაშლილი</del> &lt;del&gt; ტეგის გამოყენებით,<br> და ეს არის <ins>ხაზგასმული</ins> &lt;ins&gt; ტეგის გამოყენებით.
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      ტექსტის ჩვენება მარჯვნიდან მარცხნივ: <bdo dir="rtl">ტექსტი მარჯვნიდან მარცხნივ</bdo><br>
+      ტექსტის ჩვენება მარცხნიდან მარჯვნივ: <bdo dir="ltr">ტექსტი მარცხნიდან მარჯვნივ</bdo>
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      თქვენ შეგიძლიათ აჩვენოთ კოდი ასე: <code>let x = 10;</code>.
+      
+                  </p>
+              
+                  <pre class="paragraph">
+                      ეს ტექსტი ნაჩვენებია
+                      შენახული სივრცეებით და
+                      ახალი ხაზებით.
+      
+                  </pre>
+              
+                  <div>
+                      <blockquote class="paragraph">
+          <p>
+            ეს არის ციტატა, რომელიც გამოიყენება მნიშვნელოვანი ტექსტის ან გამონათქვამების ხაზგასასმელად.
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          მოკლე ციტატა: <q>ეს არის მოკლე ციტატა.</q>
+      </p>
+      <p class="paragraph">
+          ეს ტექსტი არის აკრონიმი: <abbr title="Cascading Style Sheets">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          ციტატაზე მითითებული ტექსტი: <cite>ეს ციტატა მოდის წიგნიდან "1984".</cite>
+      </p>
+      <p class="paragraph">
+          კლავიატურის შეყვანა: <kbd>Ctrl + C</kbd>.<br>
+          პროგრამის შედეგი: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (ცვლადები პროგრამაში).
+      </p>
+      <ul>
+          <li>პირველი ელემენტი სიაში</li>
+          <li>მეორე ელემენტი სიაში</li>
+          <li>მესამე ელემენტი სიაში</li>
+      </ul>
+      <p class="paragraph">
+          ფორმის ელემენტის იარლიყი: <label for="input">შეიყვანეთ თქვენი სახელი:</label><br>
+          <input type="text" id="input" placeholder="თქვენი სახელი">
+      </p>
+      <p class="paragraph">
+          მოქმედების ღილაკი: <button>დააჭირეთ აქ</button>.
+      </p>
+      
+                  </div>
+              
+                  <div>
+                      <section>
+          <article>
+              <h6 class="heading">სტატია</h6>
+              <p>ეს არის დამოუკიდებელი შინაარსის ბლოკი.</p>
+          </article>
+          <aside>
+              <p>ეს ტექსტი არის გვერდითი შინაარსი.</p>
+          </aside>
+      </section>
+      
+                  </div>
+              
+                  <address>
+                      ავტორი: ჯონ სმიტი<br>
+      ელ. ფოსტა: john@example.com
+      
+                  </address>
+              
+                  <table>
+                      <br>
+      <caption>
+          მატარებლის განრიგი
+      </caption>
+      <thead>
+          <tr>
+              <th>მატარებლის ნომერი</th>
+              <th>მარშრუტი</th>
+              <th>მგზავრობის დრო</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>ლონდონი - პარიზი</td>
+              <td>5 საათი</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>ნიუ-იორკი - ჩიკაგო</td>
+              <td>7 საათი</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>ოსლო - ვარშავა</td>
+              <td>4 საათი</td>
+          </tr>
+      </tbody>
+      
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="grid-x">
+          <div class="cell medium-10 medium-offset-1">
+            <div class="grid-x footer-top">
+              <div class="cell medium-5">
+                <div class="footer-logo">
+                  <a href="https://www.undp.org">
+                    <img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-white.svg" alt="UNDP Logo" />
+                  </a>
+                  <h5 class="" tabindex="0" data-viewport="false">
+                    გაერთიანებული ერების <br>განვითარების პროგრამა
+                  </h5>
+                </div>
+              </div>
+              <div class="cell medium-5 show-large">
+                <ul class="footer-icons">
+                  <li><a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a></li>
+                  <li><a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a></li>
+                  <li>
+                    <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                  </li>
+                  <li><a href="https://twitter.com/undp/" class="twitter-x" title="Twitter">twitter</a></li>
+                  <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-x footer-bottom">
+              <div class="cell medium-5">
+                <p tabindex="0">© 2024 გაერთიანებული ერების განვითარების პროგრამა</p>
+              </div>
+              <div class="cell medium-6">
+                <ul class="footer-lists">
+                  <li><a href="https://www.undp.org/copyright-terms-use">გამოყენების პირობები</a></li>
+                </ul>
+                <div class="show-small">
+                  <ul class="footer-icons">
+                    <li>
+                      <a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                    </li>
+                    <li><a href="https://twitter.com/undp/" class="twitter" title="Twitter">twitter</a></li>
+                    <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="../assets/js/app.js"></script>
+  
+    </body>
+  </html>
+  

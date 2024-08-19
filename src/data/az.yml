@@ -1,0 +1,137 @@
+# generic info
+lang: az
+language: Azərbaycan dili
+cdn: https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/
+logo: undp
+undp:
+  text: Birləşmiş Millətlər Təşkilatının İnkişaf Proqramı
+  html: Birləşmiş Millətlər <br>İnkişaf Proqramı
+
+# page metadata
+meta:
+  title: Şrift Yoxlama
+
+content:
+  link:
+    url: https://design.undp.org/
+    label: UNDP Dizayn Sistemi
+  main:
+    example: > 
+      <div class="coh-container cell small-12 large-9" > <h2 class="coh-heading article-title" > BMTİP Azərbaycanda dövlət qulluqçuları üçün İqlim Dəyişikliyinə Uyğunlaşma üzrə rəhbər səviyyəli kursların ikinci mərhələsini uğurla başa çatdırıb </h2>    <div class="coh-inline-element article-text"> <p class="coh-paragraph" >Birləşmiş Millətlər Təşkilatının İnkişaf Proqramının Azərbaycan Ölkə Ofisi tərəfindən icra edilən və Yaşıl İqlim Fondu tərəfindən maliyyələşdirilən Milli Uyğunlaşma Planı (MUP) layihəsi çərçivəsində Azərbaycan Respublikasının Prezidenti yanında Dövlət İdarəçilik Akademiyasının tərəfdaşlığı ilə dövlət qulluqçuları üçün İqlim Dəyişikliyinə Uyğunlaşma üzrə rəhbər səviyyəli kursların ikinci mərhələsi uğurla başa çatıb.</p> </div><h6 class="posted-date"> 7 August 2024</h6></div><figure class="coh-inline-element ssa-component coh-component ssa-component-instance-33205493-cad5-4242-ad19-28b472985406 coh-component-instance-33205493-cad5-4242-ad19-28b472985406 wide"><img src="https://www.undp.org/sites/g/files/zskgke326/files/2024-08/az-1.jpg" alt="a man standing in a room" loading="lazy" />
+      </figure><div class="coh-container ssa-component coh-component ssa-component-instance-13a285bf-7f89-413c-ad60-3c14c3086b7b coh-component-instance-13a285bf-7f89-413c-ad60-3c14c3086b7b  coh-style-padding-top-bottom-large ssa-instance-a8c2a0ebc3e6957ddc19967466fb844b coh-ce-cpt_row_for_columns-5f467588" >  <div class="coh-container " > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner yellow ssa-instance-a8c2a0ebc3e6957ddc19967466fb844b coh-ce-cpt_row_for_columns-544cba20">            <div class="coh-column ssa-component coh-component ssa-component-instance-9d748470-3e5e-40a4-aa80-e52aebf5da8d coh-component-instance-9d748470-3e5e-40a4-aa80-e52aebf5da8d coh-ce-cpt_column-9431213c coh-visible-xs coh-col-xs-12 coh-col-xs-push-0 coh-col-xs-pull-0 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-7 coh-visible-xl coh-col-xl-7" >         <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-1b22c22a-90b3-4c67-b938-d1c820c095b6 coh-component-instance-1b22c22a-90b3-4c67-b938-d1c820c095b6"  >    <p><strong>BAKI. 26 iyul, 2024:</strong> Birləşmiş Millətlər Təşkilatının İnkişaf Proqramının Azərbaycan Ölkə Ofisinin icra etdiyi Yaşıl İqlim Fondu tərəfindən maliyyələşdirilən Milli Uyğunlaşma Planı layihəsi çərçivəsində Azərbaycan Respublikasının Prezidenti yanında Dövlət İdarəçilik Akademiyasının tərəfdaşlığı ilə dövlət qulluqçuları üçün İqlim Dəyişikliyinə Uyğunlaşma üzrə rəhbər səviyyəli kursların ikinci mərhələsi uğurla başa çatıb.&nbsp;</p><p>Kurslar “İqlim dəyişikliklərinə uyğunlaşmanın mahiyyəti” kimi əhəmiyyətli mövzulara və dövlət qulluqçularının iqlim problemlərinin həlli üçün bilik və bacarıqlarının artırılmasına yönəlib.&nbsp;</p><p>“İqlim dəyişikliyinə uyğunlaşma” üzrə təlim proqramı 22-26 iyul 2024-cü il tarixlərində keçirilib və müvafiq dövlət qurumlarından dəvət olunmuş əməkdaşların uğurlu iştirakı ilə baş tutub.</p><p>BMTİP Azərbaycan sertifikat almış bütün iştirakçılara təbriklərini çatdırır və onların Azərbaycanda iqlim fəaliyyətinə və dayanıqlı inkişafa davamlı töhfələrini səbirsizliklə gözləyir.</p> </div> 
+    title: Şrift Yoxlama
+    h2: İkinci Səviyyə Başlıq
+    h3: Üçüncü Səviyyə Başlıq
+    h4: Dördüncü Səviyyə Başlıq
+    h5: Beşinci Səviyyə Başlıq
+    h6: Altıncı Səviyyə Başlıq
+    paragraph1: |
+      Bu <strong>qalın mətn</strong>dir,<br> və bu da &lt;b&gt; etiketi ilə <b>qalın mətn</b>dir.<br>
+      Burada <em>italic mətn</em> görürsünüz,<br> və bu da &lt;i&gt; etiketi ilə <i>italic mətn</i>dir.<br>
+      Bu mətn &lt;u&gt; etiketi ilə <u>altı xətlənmiş</u>dir.
+    
+    paragraph2: |
+      <small>Bu, &lt;small&gt; etiketi ilə daha kiçik mətn</small><br>
+      Bu mətn normaldır və <sub>subscript</sub> və <sup>superscript</sup> ilə birlikdədir.<br>
+      Bu <mark>vurğulanmış mətn</mark>dir, &lt;mark&gt; etiketi ilə.<br>
+      <del>Bu mətn silinmişdir</del> &lt;del&gt; etiketi ilə,<br> və bu da &lt;ins&gt; etiketi ilə <ins>altı xətlənmiş</ins>dir.
+    
+    paragraph3: |
+      Mətnin sağdan sola göstərilməsi: <bdo dir="rtl">Mətn sağdan sola yazılmışdır.</bdo><br>
+      Mətnin soldan sağa göstərilməsi: <bdo dir="ltr">Mətn soldan sağa yazılmışdır.</bdo>
+    
+    paragraph4: |
+      Kodu belə göstərmək olar: <code>let x = 10;</code>.
+     
+    paragraph5: |
+      Bu mətn
+                      qorunan boşluqlar və
+                      yeni xətlər ilə göstərilmişdir.
+    
+    paragraph6: |
+      <blockquote class="paragraph">
+          <p>
+            Bu, adətən vacib mətnləri və ya ifadələri vurğulamaq üçün istifadə olunan sitatdır.
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          Qısa sitat: <q>Bu qısa sitatdır.</q>
+      </p>
+      <p class="paragraph">
+          Bu mətn qısaltmadır: <abbr title="Kaskad Stil Vərəqləri">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          Sitata aid mətn: <cite>Bu sitat "1984" kitabından gəlir.</cite>
+      </p>
+      <p class="paragraph">
+          Klaviatura girişi: <kbd>Ctrl + C</kbd>.<br>
+          Proqramın çıxışı: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (proqramda dəyişənlər).
+      </p>
+      <ul>
+          <li>Birinci siyahı elementi</li>
+          <li>İkinci siyahı elementi</li>
+          <li>Üçüncü siyahı elementi</li>
+      </ul>
+      <p class="paragraph">
+          Form elementi üçün etiket: <label for="input">Adınızı daxil edin:</label><br>
+          <input type="text" id="input" placeholder="Adınız">
+      </p>
+      <p class="paragraph">
+          Fəaliyyət düyməsi: <button>Məni bas</button>.
+      </p>
+    
+    paragraph7: |
+      <section>
+          <article>
+              <h6 class="heading">Məqalə</h6>
+              <p>Bu, müstəqil məzmun blokudur.</p>
+          </article>
+          <aside>
+              <p>Bu mətn əlavə məzmundur.</p>
+          </aside>
+      </section>
+    
+    paragraph8: |
+      Müəllif: John Smith<br>
+      E-poçt: john@example.com
+    
+    paragraph9: |
+      <br>
+      <caption>
+          Qatar Cədvəli
+      </caption>
+      <thead>
+          <tr>
+              <th>Qatar Nömrəsi</th>
+              <th>Marşrut</th>
+              <th>Səyahət Vaxtı</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>London - Paris</td>
+              <td>5 saat</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>New York - Chicago</td>
+              <td>7 saat</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>Oslo - Varşava</td>
+              <td>4 saat</td>
+          </tr>
+      </tbody>
+  footer:
+    socialLinks:
+      facebook: https://www.facebook.com/UNDP/
+      linkedin: https://www.linkedin.com/company/undp
+      instagram: https://www.instagram.com/UNDP/
+      twitter: https://twitter.com/undp/
+      youtube: https://www.youtube.com/UNDP
+    terms:
+      text: İstifadə şərtləri
+      url: https://www.undp.org/copyright-terms-use

@@ -1,0 +1,339 @@
+  <!doctype html>
+  <html class="no-js" lang="ar" dir="rtl">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+      <title>فحص الخطوط</title>
+      <meta name="description" content="" />
+      <link rel="canonical" href="ar/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="" />
+      <meta property="og:site_name" content="undp" />
+      <meta property="og:url" content="ar/" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="assets/img/" />
+      <meta property="og:image:width" content="1440" />
+      <meta property="og:image:height" content="768" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@undp" />
+      <link rel="alternate" hreflang="en" href="../" />
+      <link rel="alternate" hreflang="ar" href="../ar/" />
+      <link rel="alternate" hreflang="az" href="../az/" />
+      <link rel="alternate" hreflang="ku" href="../ku/" />
+      <link rel="alternate" hreflang="ka" href="../ka/" />
+      <link rel="alternate" hreflang="km" href="../km/" />
+      <link rel="alternate" hreflang="ne" href="../ne/" />
+      <link rel="alternate" hreflang="zh" href="../zh/" />
+      <link rel="alternate" hreflang="ja" href="../ja/" />
+      <link rel="alternate" hreflang="ko" href="../ko/" />
+      <!-- Noto Sans -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- Noto Sans Arabic -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Georgian -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Khmer -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Chinese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Japanese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Korean -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+      
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/base-minimal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/input-fields.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/country-site-header.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/accordion.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/language-switcher.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/buttons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/newsletter-signup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="../assets/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      
+      <style>
+        .country-header .header .top-right>:last-child {
+          margin-inline-end: 4rem;
+        }
+      </style>
+      
+      <style>
+        body {
+          font-family: "Noto Sans Arabic", sans-serif;
+        	--undpds-font-family-proximanova: "Noto Sans Arabic", sans-serif;
+        	--undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+        }
+
+        input[type=text] {
+          font-family: "Noto Sans Arabic", sans-serif;
+        }
+
+        pre {
+          font-family: "Noto Sans Arabic", sans-serif;
+        }
+      </style>
+    </head>
+    <body id="top">
+
+      <header class="country-header">
+      	<div class="header">
+      		<div class="grid-container fluid">
+      			<div class="grid-x grid-margin-x">
+      				<div class="cell large-9 small-8 align-self-middle top-left">
+      					<a href="https://www.undp.org" class="logo">
+      						<img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-blue.svg" alt="UNDP Logo" />
+      					</a>
+      				</div>
+      				<div class="cell large-3 small-3 top-right language-switcher">
+      					<div class="dropdown-language">
+      						<button aria-expanded="false" class="blue"><span>العربية</span></button>
+      						<ul role="menu">
+      							
+      									<li role="menuitem">
+      										<a href="../" lang="en" hreflang="en" tabindex="-1">English</a>
+      									</li>
+      														
+      									<li role="menuitem">
+      										<a href="../az/" lang="az" hreflang="az" tabindex="-1">Azərbaycan dili (Azerbaijani)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ku/" lang="ku" hreflang="ku" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">كوردی (Kurdish)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ka/" lang="ka" hreflang="ka" tabindex="-1" style="font-family: 'Noto Sans Georgian', sans-serif">ქართული (Georgian)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../km/" lang="km" hreflang="km" tabindex="-1" style="font-family: 'Noto Sans Khmer', sans-serif">ខ្មែរ (Khmer)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ne/" lang="ne" hreflang="ne" tabindex="-1">नेपाली (Nepali)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../zh/" lang="zh" hreflang="zh" tabindex="-1" style="font-family: 'Noto Sans SC', sans-serif">中文 (Chinese)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ja/" lang="ja" hreflang="ja" tabindex="-1" style="font-family: 'Noto Sans JP', sans-serif">日本語 (Japanese)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
+      									</li>
+      						</ul>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </header><main class="homepage">
+          
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="cell">
+              <div class="example">
+                  <div class="coh-container grid-x overflow-hidden"> <div class="coh-container cell small-12 large-9"><h2 class="coh-heading article-title"> برنامج الأمم المتحدة الإنمائي يدعم إطلاق خطط عمل لمكافحة التطرف العنيف في ثماني محافظات  </h2><h6 class="posted-date"> 14 يوليو 2024</h6></div></div> <img src="https://www.undp.org/sites/g/files/zskgke326/files/2024-07/undp_iraq-bahgdad-140622-iraqi_dialogue_and_peace_day44.jpg" width="5472" height="3648" alt="" loading="lazy" /> <div class="coh-container ssa-component coh-component ssa-component-instance-9ff28f23-70fa-4e15-b87d-93ae68b68cdf coh-component-instance-9ff28f23-70fa-4e15-b87d-93ae68b68cdf  coh-style-padding-top-bottom-large ssa-instance-c9b8f5e826982dfd37f89fcab71363f4 coh-ce-cpt_row_for_columns-5f467588" >  <div class="coh-container " > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner yellow ssa-instance-c9b8f5e826982dfd37f89fcab71363f4 coh-ce-cpt_row_for_columns-544cba20">            <div class="coh-column ssa-component coh-component ssa-component-instance-a262b781-0848-4438-b26c-28da14a96d5e coh-component-instance-a262b781-0848-4438-b26c-28da14a96d5e coh-ce-cpt_column-9431213c coh-visible-xs coh-col-xs-12 coh-col-xs-push-0 coh-col-xs-pull-0 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-7 coh-visible-xl coh-col-xl-7" >         <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-e2beb139-bb07-4e3d-a9c6-324799af2c03 coh-component-instance-e2beb139-bb07-4e3d-a9c6-324799af2c03"  >    <p>أطلق مكتب مستشارية الأمن القومي العراقي مبادرة مهمة تهدف إلى وضع خطط عمل محلية لمكافحة التطرف العنيف الذي يؤدي إلى الإرهاب في ثماني محافظات عراقية. وتميزت هذه الخطوة المهمة بعقد ورشة عمل لمدة ثلاثة أيام في أربيل بالتعاون مع برنامج الأمم المتحدة الإنمائي  وبتمويل من حكومة الدنمارك.</p><p>جمعت الورشة لجان فرعية من بغداد وبابل وميسان وصلاح الدين والديوانية والمثنى و واسط لصياغة خطط عمل خاصة تتناسب مع الاحتياجات والتحديات المحددة لكل محافظة. وأكد السيد علي عبد الله، رئيس اللجنة الوطنية لمكافحة التطرف العنيف، على أهمية اتخاذ إجراءات وقائية استباقية حتى في المحافظات التي لم تتأثر بعد بالتطرف بشكل مباشر. كما شدد على ضرورة إعادة دمج العائدين وإنهاء النزوح في المناطق المحررة، تماشياً مع توجيهات الحكومة الصادرة مطلع عام ٢٠٢٤.</p><p>من جانبها، أكدت السيدة جودي واكاهيو، رئيسة فريق التماسك المجتمعي في برنامج الأمم المتحدة الإنمائي، على التزام البرنامج بدعم الحكومة العراقية في جهودها لمكافحة التطرف العنيف. وأوضحت قائلة: "يؤمن برنامج الأمم المتحدة الإنمائي، كمؤسسة تنموية، إيماناً راسخاً بأن التنمية المستدامة لا يمكن تحقيقها بدون سلام، ولا يمكن تحقيق السلام بدون تنمية."</p><p>وخاض المشاركون في الورشة نقاشات مفتوحة حول التطرف العنيف، مهدت الطريق لتطوير نهج مبتكرة لمواجهته. وأشارت السيدة أحلام محمد، عضو اللجنة الفرعية لمكافحة التطرف العنيف في محافظة المثنى، إلى الدور المحوري الذي يلعبه التعليم والأبوة الصالحة في الوقاية من التطرف.وأشارت إلى أن "الطفل غير المتعلم والأب العنيف والتنشئة الخاطئة يمكن أن تؤدي إلى التطرف".</p><p>ستتبع الورشة استشارات على مستوى المحافظات، بمشاركة القادة الدينيين وقادة العشائر والمدنيين، بالإضافة إلى النساء والشباب وأفراد المجتمع عامة.تهدف هذه الاستشارات إلى تحديد العوامل التي تؤدي إلى التطرف وتطوير المبادرات لمواجهتها. وأكد أحد مندوبي اللجنة الفرعية لمكافحة التطرف العنيف في محافظة ميسان على أهمية الحوار، مشيرا إلى أن "ليس كل متطرف هو إرهابي.البعض، يحتاج الى التشجيع في الاتجاه الصحيح، لكي يصبحوا دعاة مؤثرين لحماية المجتمع".</p><p>تأتي جهود دعم خطة عمل مكافحة التطرف العنيف بفضل مساهمة حكومة الدنمارك. وفي عام 2023، سهّل برنامج الأمم المتحدة الإنمائي وضع خطط عمل في سبع محافظات، بما في ذلك ذي قار والبصرة وكربلاء والنجف والأنبار وديالى وكركوك.</p><p> </p> </div>  </div></div></div></div></div>
+      
+              </div>
+              <div class=" font-check">
+                  <h1 class="title">فحص الخطوط</h1>
+          
+                  <h2 class="heading">عنوان المستوى الثاني</h2>
+          
+                  <h3 class="heading">عنوان المستوى الثالث</h3>
+          
+                  <h4 class="heading">عنوان المستوى الرابع</h4>
+          
+                  <h5 class="heading">عنوان المستوى الخامس</h5>
+          
+                  <h6 class="heading">عنوان المستوى السادس</h6>
+          
+                  <p class="paragraph">
+                      هذا هو <strong>نص غامق</strong>,<br> وهذا هو <b>نص غامق باستخدام وسم &lt;b&gt;</b>.<br>
+      هنا ترى <em>نص مائل</em>,<br> وهذا هو <i>نص مائل باستخدام وسم &lt;i&gt;</i>.<br>
+      هذا النص <u>مُسطّر</u> باستخدام وسم &lt;u&gt;.
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      <small>هذا نص أصغر باستخدام وسم &lt;small&gt;</small><br>
+      هذا نص عادي مع <sub>نص سفلي</sub> و <sup>نص علوي</sup>.<br>
+      هنا تجد <mark>نص مميز</mark> باستخدام وسم &lt;mark&gt;.<br>
+      <del>هذا النص محذوف</del> باستخدام وسم &lt;del&gt;,<br> وهذا النص <ins>مُدرج</ins> باستخدام وسم &lt;ins&gt;.
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      عرض النص من اليمين إلى اليسار: <bdo dir="rtl">نص مكتوب من اليمين إلى اليسار.</bdo><br>
+      عرض النص من اليسار إلى اليمين: <bdo dir="ltr">نص مكتوب من اليسار إلى اليمين.</bdo>
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      يمكنك عرض الشفرة البرمجية بهذا الشكل: <code>let x = 10;</code>.
+      
+                  </p>
+              
+                  <pre class="paragraph">
+                      هذا النص معروض
+                      مع الحفاظ على المسافات
+                      والأسطر الجديدة.
+      
+                  </pre>
+              
+                  <div>
+                      <blockquote class="paragraph">
+          <p>
+            هذا اقتباس يُستخدم عادةً لتأكيد النصوص أو التعبيرات المهمة.
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          اقتباس قصير: <q>هذا اقتباس قصير.</q>
+      </p>
+      <p class="paragraph">
+          هذا النص هو اختصار: <abbr title="Cascading Style Sheets">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          نص يمثل مرجعًا: <cite>هذا الاقتباس مأخوذ من كتاب "1984".</cite>
+      </p>
+      <p class="paragraph">
+          إدخال لوحة المفاتيح: <kbd>Ctrl + C</kbd>.<br>
+          مخرجات البرنامج: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (متغيرات في الشفرة البرمجية).
+      </p>
+      <ul>
+          <li>العنصر الأول في القائمة</li>
+          <li>العنصر الثاني في القائمة</li>
+          <li>العنصر الثالث في القائمة</li>
+      </ul>
+      <p class="paragraph">
+          وسم لعنصر في نموذج: <label for="input">أدخل اسمك:</label><br>
+          <input type="text" id="input" placeholder="اسمك">
+      </p>
+      <p class="paragraph">
+          زر الإجراء: <button>اضغط هنا</button>.
+      </p>
+      
+                  </div>
+              
+                  <div>
+                      <section>
+          <article>
+              <h6 class="heading">مقالة</h6>
+              <p>هذه كتلة محتوى مستقلة.</p>
+          </article>
+          <aside>
+              <p>هذا النص هو محتوى جانبي.</p>
+          </aside>
+      </section>
+      
+                  </div>
+              
+                  <address>
+                      المؤلف: جون سميث<br>
+      البريد الإلكتروني: john@example.com
+      
+                  </address>
+              
+                  <table>
+                      <br>
+      <caption>
+          جدول مواعيد القطارات
+      </caption>
+      <thead>
+          <tr>
+              <th>رقم القطار</th>
+              <th>المسار</th>
+              <th>مدة الرحلة</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>لندن - باريس</td>
+              <td>5 ساعات</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>نيويورك - شيكاغو</td>
+              <td>7 ساعات</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>أوسلو - وارسو</td>
+              <td>4 ساعات</td>
+          </tr>
+      </tbody>
+      
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="grid-x">
+          <div class="cell medium-10 medium-offset-1">
+            <div class="grid-x footer-top">
+              <div class="cell medium-5">
+                <div class="footer-logo">
+                  <a href="https://www.undp.org">
+                    <img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-white.svg" alt="UNDP Logo" />
+                  </a>
+                  <h5 class="" tabindex="0" data-viewport="false">
+                    برنامج الأمم المتحدة <br>الإنمائي
+                  </h5>
+                </div>
+              </div>
+              <div class="cell medium-5 show-large">
+                <ul class="footer-icons">
+                  <li><a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a></li>
+                  <li><a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a></li>
+                  <li>
+                    <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                  </li>
+                  <li><a href="https://twitter.com/undp/" class="twitter-x" title="Twitter">twitter</a></li>
+                  <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-x footer-bottom">
+              <div class="cell medium-5">
+                <p tabindex="0">© 2024 برنامج الأمم المتحدة الإنمائي</p>
+              </div>
+              <div class="cell medium-6">
+                <ul class="footer-lists">
+                  <li><a href="https://www.undp.org/copyright-terms-use">شروط الاستخدام</a></li>
+                </ul>
+                <div class="show-small">
+                  <ul class="footer-icons">
+                    <li>
+                      <a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                    </li>
+                    <li><a href="https://twitter.com/undp/" class="twitter" title="Twitter">twitter</a></li>
+                    <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="../assets/js/app.js"></script>
+
+    </body>
+  </html>

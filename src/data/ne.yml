@@ -1,0 +1,134 @@
+# generic info
+lang: ne
+language: नेपाली
+cdn: https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/
+logo: undp
+undp:
+  text: संयुक्त राष्ट्र विकास कार्यक्रम
+  html: संयुक्त राष्ट्र <br>विकास कार्यक्रम
+
+# page metadata
+meta:
+  title: फन्ट जाँच
+
+content:
+  link:
+    url: https://design.undp.org/
+    label: UNDP डिजाइन प्रणाली
+  main:
+    title: फन्ट जाँच
+    h2: दोस्रो स्तरको शीर्षक
+    h3: तेस्रो स्तरको शीर्षक
+    h4: चौथो स्तरको शीर्षक
+    h5: पाँचौं स्तरको शीर्षक
+    h6: छैटौं स्तरको शीर्षक
+    paragraph1: |
+      यो <strong>मोटोपनको पाठ</strong> हो,<br> र यो &lt;b&gt; ट्यागको साथ <b>मोटोपनको पाठ</b> हो।<br>
+      यहाँ <em>ईटालिक पाठ</em> छ,<br> र यो &lt;i&gt; ट्यागको साथ <i>ईटालिक पाठ</i> हो।<br>
+      यो पाठ &lt;u&gt; ट्यागको साथ <u>रेखाङ्कन गरिएको</u> हो।
+    
+    paragraph2: |
+      <small>यो &lt;small&gt; ट्यागको साथ सानो पाठ हो</small><br>
+      यो साधारण पाठ हो जसमा <sub>उपरेखा</sub> र <sup>माथि</sup> सन्केतित छ।<br>
+      यहाँ &lt;mark&gt; ट्यागको साथ <mark>हाइलाइट गरिएको पाठ</mark> छ।<br>
+      &lt;del&gt;यो पाठ हटाइएको छ</del>,<br> र यो &lt;ins&gt;रेखाङ्कन गरिएको</ins> हो।
+    
+    paragraph3: |
+      दायाँ-बाट-बायाँ पाठ प्रदर्शन: <bdo dir="rtl">दायाँ-बाट-बायाँ लेखिएको पाठ।</bdo><br>
+      बायाँ-बाट-दायाँ पाठ प्रदर्शन: <bdo dir="ltr">बायाँ-बाट-दायाँ लेखिएको पाठ।</bdo>
+    
+    paragraph4: |
+      तपाईले यसरी कोड प्रदर्शन गर्न सक्नुहुन्छ: <code>let x = 10;</code>.
+     
+    paragraph5: |
+      यो पाठ प्रदर्शित
+                      गरिएको छ, राखिएको स्थान र
+                      नयाँ पंक्तिहरूसँग।
+    
+    paragraph6: |
+      <blockquote class="paragraph">
+          <p>
+            यो उद्धरण हो जुन सामान्यतया महत्त्वपूर्ण पाठ वा अभिव्यक्तिहरूमा जोड दिन प्रयोग गरिन्छ।
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          छोटो उद्धरण: <q>यो एउटा छोटो उद्धरण हो।</q>
+      </p>
+      <p class="paragraph">
+          यो पाठ संक्षिप्त रूप हो: <abbr title="Cascading Style Sheets">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          उद्धरणको रूपमा पाठ: <cite>यो उद्धरण "1984" पुस्तकबाट आएको हो।</cite>
+      </p>
+      <p class="paragraph">
+          किबोर्ड इनपुट: <kbd>Ctrl + C</kbd>.<br>
+          कार्यक्रमको आउटपुट: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (कार्यक्रमका चरहरू)।
+      </p>
+      <ul>
+          <li>पहिलो सूची वस्तु</li>
+          <li>दोस्रो सूची वस्तु</li>
+          <li>तेस्रो सूची वस्तु</li>
+      </ul>
+      <p class="paragraph">
+          फारम तत्वको लागि लेबल: <label for="input">तपाईंको नाम प्रविष्ट गर्नुहोस्:</label><br>
+          <input type="text" id="input" placeholder="तपाईंको नाम">
+      </p>
+      <p class="paragraph">
+          कार्य बटन: <button>मलाई क्लिक गर्नुहोस्</button>.
+      </p>
+    
+    paragraph7: |
+      <section>
+          <article>
+              <h6 class="heading">लेख</h6>
+              <p>यो एक स्वतन्त्र सामग्री ब्लक हो।</p>
+          </article>
+          <aside>
+              <p>यो पाठ साइड सामग्री हो।</p>
+          </aside>
+      </section>
+    
+    paragraph8: |
+      लेखक: जोन स्मिथ<br>
+      इमेल: john@example.com
+    
+    paragraph9: |
+      <br>
+      <caption>
+          रेल तालिका
+      </caption>
+      <thead>
+          <tr>
+              <th>रेल संख्या</th>
+              <th>मार्ग</th>
+              <th>यात्रा समय</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>लन्डन - पेरिस</td>
+              <td>5 घण्टा</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>न्यूयोर्क - शिकागो</td>
+              <td>7 घण्टा</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>ओस्लो - वारसा</td>
+              <td>4 घण्टा</td>
+          </tr>
+      </tbody>
+  footer:
+    socialLinks:
+      facebook: https://www.facebook.com/UNDP/
+      linkedin: https://www.linkedin.com/company/undp
+      instagram: https://www.instagram.com/UNDP/
+      twitter: https://twitter.com/undp/
+      youtube: https://www.youtube.com/UNDP
+    terms:
+      text: प्रयोगको सर्तहरू
+      url: https://www.undp.org/copyright-terms-use

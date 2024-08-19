@@ -1,0 +1,139 @@
+# generic info
+lang: ar
+language: العربية
+cdn: https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/
+logo: undp
+undp:
+  text: برنامج الأمم المتحدة الإنمائي
+  html: برنامج الأمم المتحدة <br>الإنمائي
+
+# page metadata
+meta:
+  title: فحص الخطوط
+
+content:
+  link:
+    url: https://design.undp.org/
+    label: نظام تصميم برنامج الأمم المتحدة الإنمائي
+  main:
+    example: >  
+      <div class="coh-container grid-x overflow-hidden"> <div class="coh-container cell small-12 large-9"><h2 class="coh-heading article-title"> برنامج الأمم المتحدة الإنمائي يدعم إطلاق خطط عمل لمكافحة التطرف العنيف في ثماني محافظات  </h2><h6 class="posted-date"> 14 يوليو 2024</h6></div></div>
+      <img src="https://www.undp.org/sites/g/files/zskgke326/files/2024-07/undp_iraq-bahgdad-140622-iraqi_dialogue_and_peace_day44.jpg" width="5472" height="3648" alt="" loading="lazy" />
+      <div class="coh-container ssa-component coh-component ssa-component-instance-9ff28f23-70fa-4e15-b87d-93ae68b68cdf coh-component-instance-9ff28f23-70fa-4e15-b87d-93ae68b68cdf  coh-style-padding-top-bottom-large ssa-instance-c9b8f5e826982dfd37f89fcab71363f4 coh-ce-cpt_row_for_columns-5f467588" >  <div class="coh-container " > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner yellow ssa-instance-c9b8f5e826982dfd37f89fcab71363f4 coh-ce-cpt_row_for_columns-544cba20">            <div class="coh-column ssa-component coh-component ssa-component-instance-a262b781-0848-4438-b26c-28da14a96d5e coh-component-instance-a262b781-0848-4438-b26c-28da14a96d5e coh-ce-cpt_column-9431213c coh-visible-xs coh-col-xs-12 coh-col-xs-push-0 coh-col-xs-pull-0 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-7 coh-visible-xl coh-col-xl-7" >         <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-e2beb139-bb07-4e3d-a9c6-324799af2c03 coh-component-instance-e2beb139-bb07-4e3d-a9c6-324799af2c03"  >    <p>أطلق مكتب مستشارية الأمن القومي العراقي مبادرة مهمة تهدف إلى وضع خطط عمل محلية لمكافحة التطرف العنيف الذي يؤدي إلى الإرهاب في ثماني محافظات عراقية. وتميزت هذه الخطوة المهمة بعقد ورشة عمل لمدة ثلاثة أيام في أربيل بالتعاون مع برنامج الأمم المتحدة الإنمائي  وبتمويل من حكومة الدنمارك.</p><p>جمعت الورشة لجان فرعية من بغداد وبابل وميسان وصلاح الدين والديوانية والمثنى و واسط لصياغة خطط عمل خاصة تتناسب مع الاحتياجات والتحديات المحددة لكل محافظة. وأكد السيد علي عبد الله، رئيس اللجنة الوطنية لمكافحة التطرف العنيف، على أهمية اتخاذ إجراءات وقائية استباقية حتى في المحافظات التي لم تتأثر بعد بالتطرف بشكل مباشر. كما شدد على ضرورة إعادة دمج العائدين وإنهاء النزوح في المناطق المحررة، تماشياً مع توجيهات الحكومة الصادرة مطلع عام ٢٠٢٤.</p><p>من جانبها، أكدت السيدة جودي واكاهيو، رئيسة فريق التماسك المجتمعي في برنامج الأمم المتحدة الإنمائي، على التزام البرنامج بدعم الحكومة العراقية في جهودها لمكافحة التطرف العنيف. وأوضحت قائلة: "يؤمن برنامج الأمم المتحدة الإنمائي، كمؤسسة تنموية، إيماناً راسخاً بأن التنمية المستدامة لا يمكن تحقيقها بدون سلام، ولا يمكن تحقيق السلام بدون تنمية."</p><p>وخاض المشاركون في الورشة نقاشات مفتوحة حول التطرف العنيف، مهدت الطريق لتطوير نهج مبتكرة لمواجهته. وأشارت السيدة أحلام محمد، عضو اللجنة الفرعية لمكافحة التطرف العنيف في محافظة المثنى، إلى الدور المحوري الذي يلعبه التعليم والأبوة الصالحة في الوقاية من التطرف.وأشارت إلى أن "الطفل غير المتعلم والأب العنيف والتنشئة الخاطئة يمكن أن تؤدي إلى التطرف".</p><p>ستتبع الورشة استشارات على مستوى المحافظات، بمشاركة القادة الدينيين وقادة العشائر والمدنيين، بالإضافة إلى النساء والشباب وأفراد المجتمع عامة.تهدف هذه الاستشارات إلى تحديد العوامل التي تؤدي إلى التطرف وتطوير المبادرات لمواجهتها. وأكد أحد مندوبي اللجنة الفرعية لمكافحة التطرف العنيف في محافظة ميسان على أهمية الحوار، مشيرا إلى أن "ليس كل متطرف هو إرهابي.البعض، يحتاج الى التشجيع في الاتجاه الصحيح، لكي يصبحوا دعاة مؤثرين لحماية المجتمع".</p><p>تأتي جهود دعم خطة عمل مكافحة التطرف العنيف بفضل مساهمة حكومة الدنمارك. وفي عام 2023، سهّل برنامج الأمم المتحدة الإنمائي وضع خطط عمل في سبع محافظات، بما في ذلك ذي قار والبصرة وكربلاء والنجف والأنبار وديالى وكركوك.</p><p> </p> </div> 
+      </div></div></div></div></div>
+    title: فحص الخطوط
+    h2: عنوان المستوى الثاني
+    h3: عنوان المستوى الثالث
+    h4: عنوان المستوى الرابع
+    h5: عنوان المستوى الخامس
+    h6: عنوان المستوى السادس
+    paragraph1: |
+      هذا هو <strong>نص غامق</strong>,<br> وهذا هو <b>نص غامق باستخدام وسم &lt;b&gt;</b>.<br>
+      هنا ترى <em>نص مائل</em>,<br> وهذا هو <i>نص مائل باستخدام وسم &lt;i&gt;</i>.<br>
+      هذا النص <u>مُسطّر</u> باستخدام وسم &lt;u&gt;.
+    
+    paragraph2: |
+      <small>هذا نص أصغر باستخدام وسم &lt;small&gt;</small><br>
+      هذا نص عادي مع <sub>نص سفلي</sub> و <sup>نص علوي</sup>.<br>
+      هنا تجد <mark>نص مميز</mark> باستخدام وسم &lt;mark&gt;.<br>
+      <del>هذا النص محذوف</del> باستخدام وسم &lt;del&gt;,<br> وهذا النص <ins>مُدرج</ins> باستخدام وسم &lt;ins&gt;.
+    
+    paragraph3: |
+      عرض النص من اليمين إلى اليسار: <bdo dir="rtl">نص مكتوب من اليمين إلى اليسار.</bdo><br>
+      عرض النص من اليسار إلى اليمين: <bdo dir="ltr">نص مكتوب من اليسار إلى اليمين.</bdo>
+    
+    paragraph4: |
+      يمكنك عرض الشفرة البرمجية بهذا الشكل: <code>let x = 10;</code>.
+     
+    paragraph5: |
+      هذا النص معروض
+                      مع الحفاظ على المسافات
+                      والأسطر الجديدة.
+    
+    paragraph6: |
+      <blockquote class="paragraph">
+          <p>
+            هذا اقتباس يُستخدم عادةً لتأكيد النصوص أو التعبيرات المهمة.
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          اقتباس قصير: <q>هذا اقتباس قصير.</q>
+      </p>
+      <p class="paragraph">
+          هذا النص هو اختصار: <abbr title="Cascading Style Sheets">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          نص يمثل مرجعًا: <cite>هذا الاقتباس مأخوذ من كتاب "1984".</cite>
+      </p>
+      <p class="paragraph">
+          إدخال لوحة المفاتيح: <kbd>Ctrl + C</kbd>.<br>
+          مخرجات البرنامج: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (متغيرات في الشفرة البرمجية).
+      </p>
+      <ul>
+          <li>العنصر الأول في القائمة</li>
+          <li>العنصر الثاني في القائمة</li>
+          <li>العنصر الثالث في القائمة</li>
+      </ul>
+      <p class="paragraph">
+          وسم لعنصر في نموذج: <label for="input">أدخل اسمك:</label><br>
+          <input type="text" id="input" placeholder="اسمك">
+      </p>
+      <p class="paragraph">
+          زر الإجراء: <button>اضغط هنا</button>.
+      </p>
+    
+    paragraph7: |
+      <section>
+          <article>
+              <h6 class="heading">مقالة</h6>
+              <p>هذه كتلة محتوى مستقلة.</p>
+          </article>
+          <aside>
+              <p>هذا النص هو محتوى جانبي.</p>
+          </aside>
+      </section>
+    
+    paragraph8: |
+      المؤلف: جون سميث<br>
+      البريد الإلكتروني: john@example.com
+    
+    paragraph9: |
+      <br>
+      <caption>
+          جدول مواعيد القطارات
+      </caption>
+      <thead>
+          <tr>
+              <th>رقم القطار</th>
+              <th>المسار</th>
+              <th>مدة الرحلة</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>لندن - باريس</td>
+              <td>5 ساعات</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>نيويورك - شيكاغو</td>
+              <td>7 ساعات</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>أوسلو - وارسو</td>
+              <td>4 ساعات</td>
+          </tr>
+      </tbody>
+  footer:
+    socialLinks:
+      facebook: https://www.facebook.com/UNDP/
+      linkedin: https://www.linkedin.com/company/undp
+      instagram: https://www.instagram.com/UNDP/
+      twitter: https://twitter.com/undp/
+      youtube: https://www.youtube.com/UNDP
+    terms:
+      text: شروط الاستخدام
+      url: https://www.undp.org/copyright-terms-use

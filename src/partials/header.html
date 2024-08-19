@@ -1,0 +1,70 @@
+<header class="country-header">
+	<div class="header">
+		<div class="grid-container fluid">
+			<div class="grid-x grid-margin-x">
+				<div class="cell large-9 small-8 align-self-middle top-left">
+					<a href="https://www.undp.org" class="logo">
+						<img src="{{cdn}}images/{{logo}}-logo-blue.svg" alt="UNDP Logo" />
+					</a>
+				</div>
+				<div class="cell large-3 small-3 top-right language-switcher">
+					<div class="dropdown-language">
+						<button aria-expanded="false" class="blue"><span>{{language}}</span></button>
+						<ul role="menu">
+							{{#ifequal lang "en"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}" lang="en" hreflang="en" tabindex="-1">English</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "ar"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}ar/" lang="ar" hreflang="ar" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">العربية (Arabic)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "az"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}az/" lang="az" hreflang="az" tabindex="-1">Azərbaycan dili (Azerbaijani)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "ku"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}ku/" lang="ku" hreflang="ku" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">كوردی (Kurdish)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "ka"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}ka/" lang="ka" hreflang="ka" tabindex="-1" style="font-family: 'Noto Sans Georgian', sans-serif">ქართული (Georgian)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "km"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}km/" lang="km" hreflang="km" tabindex="-1" style="font-family: 'Noto Sans Khmer', sans-serif">ខ្មែរ (Khmer)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "ne"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}ne/" lang="ne" hreflang="ne" tabindex="-1">नेपाली (Nepali)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "zh"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}zh/" lang="zh" hreflang="zh" tabindex="-1" style="font-family: 'Noto Sans SC', sans-serif">中文 (Chinese)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "ja"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}ja/" lang="ja" hreflang="ja" tabindex="-1" style="font-family: 'Noto Sans JP', sans-serif">日本語 (Japanese)</a>
+									</li>
+							{{/ifequal}}
+							{{#ifequal lang "ko"}}{{else}}
+									<li role="menuitem">
+										<a href="{{@root.root}}ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
+									</li>
+							{{/ifequal}}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

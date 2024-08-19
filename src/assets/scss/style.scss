@@ -1,0 +1,13 @@
+// Global styles
+
+.underline {
+  text-decoration: underline;
+}
+
+.grid-container {
+  max-width: 120rem;
+
+  @include devicebreak(large) {
+    padding-inline: 3.75rem;
+  }
+}

@@ -1,0 +1,340 @@
+  <!doctype html>
+  <html class="no-js" lang="ja">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+      <title>フォントチェック</title>
+      <meta name="description" content="" />
+      <link rel="canonical" href="ja/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="" />
+      <meta property="og:site_name" content="undp" />
+      <meta property="og:url" content="ja/" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="assets/img/" />
+      <meta property="og:image:width" content="1440" />
+      <meta property="og:image:height" content="768" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@undp" />
+      <link rel="alternate" hreflang="en" href="../" />
+      <link rel="alternate" hreflang="ar" href="../ar/" />
+      <link rel="alternate" hreflang="az" href="../az/" />
+      <link rel="alternate" hreflang="ku" href="../ku/" />
+      <link rel="alternate" hreflang="ka" href="../ka/" />
+      <link rel="alternate" hreflang="km" href="../km/" />
+      <link rel="alternate" hreflang="ne" href="../ne/" />
+      <link rel="alternate" hreflang="zh" href="../zh/" />
+      <link rel="alternate" hreflang="ja" href="../ja/" />
+      <link rel="alternate" hreflang="ko" href="../ko/" />
+      <!-- Noto Sans -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- Noto Sans Arabic -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Georgian -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Noto Sans Khmer -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Chinese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Japanese -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+      <!-- Korean -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+      
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/base-minimal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/input-fields.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/country-site-header.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/accordion.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/language-switcher.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/buttons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/css/components/newsletter-signup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="../assets/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      
+      <style>
+        .country-header .header .top-right>:last-child {
+          margin-inline-end: 4rem;
+        }
+      </style>
+      
+      <style>
+        body {
+          font-family: "Noto Sans JP", sans-serif;
+        	--undpds-font-family-proximanova: "Noto Sans JP", sans-serif;
+        	--undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+        }
+
+        input[type=text] {
+          font-family: "Noto Sans JP", sans-serif;
+        }
+
+        pre {
+          font-family: "Noto Sans JP", sans-serif;
+        }
+      </style>  
+    </head>
+    <body id="top">
+  
+      <header class="country-header">
+      	<div class="header">
+      		<div class="grid-container fluid">
+      			<div class="grid-x grid-margin-x">
+      				<div class="cell large-9 small-8 align-self-middle top-left">
+      					<a href="https://www.undp.org" class="logo">
+      						<img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-blue.svg" alt="UNDP Logo" />
+      					</a>
+      				</div>
+      				<div class="cell large-3 small-3 top-right language-switcher">
+      					<div class="dropdown-language">
+      						<button aria-expanded="false" class="blue"><span>日本語</span></button>
+      						<ul role="menu">
+      							
+      									<li role="menuitem">
+      										<a href="../" lang="en" hreflang="en" tabindex="-1">English</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ar/" lang="ar" hreflang="ar" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">العربية (Arabic)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../az/" lang="az" hreflang="az" tabindex="-1">Azərbaycan dili (Azerbaijani)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ku/" lang="ku" hreflang="ku" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">كوردی (Kurdish)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ka/" lang="ka" hreflang="ka" tabindex="-1" style="font-family: 'Noto Sans Georgian', sans-serif">ქართული (Georgian)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../km/" lang="km" hreflang="km" tabindex="-1" style="font-family: 'Noto Sans Khmer', sans-serif">ខ្មែរ (Khmer)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../ne/" lang="ne" hreflang="ne" tabindex="-1">नेपाली (Nepali)</a>
+      									</li>
+      							
+      									<li role="menuitem">
+      										<a href="../zh/" lang="zh" hreflang="zh" tabindex="-1" style="font-family: 'Noto Sans SC', sans-serif">中文 (Chinese)</a>
+      									</li>
+      														
+      									<li role="menuitem">
+      										<a href="../ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
+      									</li>
+      						</ul>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </header><main class="homepage">
+          
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="cell">
+              <div class="example">
+                  <div class="coh-container cell small-12 large-9" > <h2 class="coh-heading article-title" > 全世界で8割の人々が政府による気候変動対策の強化を要望： 国連開発計画の調査で判明 </h2>    <div class="coh-inline-element article-text"> <p class="coh-paragraph" >画期的な世論調査の結果、世界人口の圧倒的多数が気候変動との闘いで、さらに野心的な取り組みを支持し、地政学的な対立の克服を望んでいることが明らかに</p> </div> <h6 class="posted-date"> 2024年6月20日</h6></div> <figure class="coh-inline-element ssa-component coh-component ssa-component-instance-0bc2f587-6951-425f-b14e-8287da0dfa47 coh-component-instance-0bc2f587-6951-425f-b14e-8287da0dfa47 wide"><img src="https://www.undp.org/sites/g/files/zskgke326/files/2024-06/4321x2881px_optionb8x.png" width="4321" height="2881" alt="" loading="lazy" /><figcaption class="coh-inline-element">   <p class="coh-paragraph"  >国連開発計画（UNDP）および英国オックスフォード大学とGeoPollの連携により実施されたこの調査では、87の言語を話す77か国の7万5,000人以上を対象に、気候変動に関する15項目の質問を実施</p>    </figcaption>  </figure> <div class="coh-container ssa-component coh-component ssa-component-instance-c06ea609-650f-4c78-b1a7-d2ac24b77d19 coh-component-instance-c06ea609-650f-4c78-b1a7-d2ac24b77d19  coh-style-padding-top-bottom-large ssa-instance-b9bb3c339ed9cd62cd9966812d65feae coh-ce-cpt_row_for_columns-5f467588" >  <div class="coh-container " > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner yellow ssa-instance-b9bb3c339ed9cd62cd9966812d65feae coh-ce-cpt_row_for_columns-544cba20">            <div class="coh-column ssa-component coh-component ssa-component-instance-a601c83d-1df2-4b97-a0b3-3f7d1025efdc coh-component-instance-a601c83d-1df2-4b97-a0b3-3f7d1025efdc coh-ce-cpt_column-9431213c coh-visible-xs coh-col-xs-12 coh-col-xs-push-0 coh-col-xs-pull-0 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-7 coh-visible-xl coh-col-xl-7" >         <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-338e87a4-5b82-4b29-9603-01074aad3b4d coh-component-instance-338e87a4-5b82-4b29-9603-01074aad3b4d"  >    <p><strong>6月20日、ニューヨーク発&nbsp;</strong>–&nbsp;気候変動に関する単発の世論調査としては最大規模の「<a href="http://peoplesclimate.vote/">みんなの気候投票2024</a>」によると、全世界で5人に4人に当たる80%の人々は、自国の政府に気候危機への対策を強化するよう望んでいます。</p><p>また、地政学的な対立は除外し、気候変動対策で協力することを自国に望む人々はそれよりさらに多く、86%に達しています。紛争が激化し、ナショナリズムが台頭している現下の世界情勢を考えれば、このコンセンサスは特に驚くべきほど広範囲に広がっていると言えます。</p><p>国連開発計画（UNDP）および英国オックスフォード大学とGeoPollの連携により実施されたこの調査では、87の言語を話す77か国の7万5,000人以上を対象に、気候変動に関する15項目の質問を行いました。質問はいずれも、人々が気候変動の影響をどのように実感しているのか、そして世界のリーダーにどのような対応を求めているのかに対する理解を深めることを目的としています。調査対象となった77か国には、世界人口の87%が暮らしています。</p><p>アヒム・シュタイナーUNDP総裁は「みんなの気候投票では、全世界の市民が自国のリーダーに対し、政治的対立を克服し、気候危機と闘うために今すぐ、大胆な行動を起こすよう求める声が、大きくはっきりと聞こえた」と語っています。さらに「かつてない規模で行われたこの調査の結果を見ると、世界の意見が驚くべきほど一致していることが分かります。特に、各国が次に約束する気候変動対策として、パリ協定に基づく『国が決定する貢献（NDC）』を策定する中で、私たちはリーダーや政策立案者に対し、この結果に留意するよう強く促しています。どこの誰でも、この問題についてはほぼ合意できるからです」と語りました。</p><p><strong>最大の排出国で集まる気候変動対策強化への支持</strong></p><p>調査では、温室効果ガス排出量が世界最大の20か国で、気候変動対策強化への支持が集まっていることが明らかになりましたが、その支持率は米国とロシアの66%からドイツの67%、中国の73%、南アフリカとインドの77%、ブラジルの85%、イランの88%、さらにはイタリアの93%に至るまで、いずれも過半数に上ります。</p><p>五大排出国（オーストラリア、カナダ、フランス、ドイツ、米国）では、自国のコミットメント強化を求める女性が男性を10ポイントから17ポイント上回ります。この格差が最も大きいドイツでは、気候変動対策強化を求める女性が男性の58%に対し75%と、実に17ポイントも多くなっています。&nbsp;</p><p><strong>化石燃料の段階的廃止</strong></p><p>より大胆な気候変動対策を求める声に加え、調査では全世界で72%の多数が、化石燃料からの迅速な移行を支持していることも分かります。これは石油、石炭またはガスの十大生産国についても当てはまり、支持率はナイジェリアとトルコが89%、中国が80%、ドイツが76%、サウジアラビアが75%、オーストラリアが69%、米国が54%と、いずれも過半数に達しています。</p><p>自国が全く移行を図るべきではないという回答は、全世界のわずか7%にとどまっています。</p><p><strong>気候変動に対する不安</strong></p><p>気候変動は、全世界の人々の頭の中にあります。気候変動について定期的に、すなわち毎日または毎週、考えている人々は全世界で56%に上りますが、後発開発途上国では、この割合が63%近くに達しています。</p><p>世界で過半数の人々（53%）は、去年よりも気候変動に対する不安が高まったと答えています。その割合は後発開発途上国で相対的に高くなっています（59%）。調査対象となった9つの小島嶼開発途上国（SIDS）を平均すると、去年よりも不安が高まったとする回答者は71%にも上ります。</p><p>全世界で69%の人々は、どこで暮らすか、どこで働くかといった重大な決定が気候変動の影響を受けていると回答しています。その割合は後発開発途上国で高い一方で（74%）、西欧や北欧（52%）と北米（42%）では大幅に低くなっています。</p><p><strong>&nbsp;</strong>オックスフォード大学社会学部のスティーブン・フィッシャー教授は「この規模の調査は壮大な科学的試みです。厳密な方法論を守りながらも、世界の最貧地域で暮らす社会的に取り残された集団の人々も対象とすべく、特別な取り組みも行われました。気候変動について入手できる世論調査としては、もっとも質の高いグローバル・データの中に入ります」と語っています。</p><p>また、キャシー・フリンUNDP気候変動政策アドバイザーは「世界のリーダーたちが2025年までに、パリ協定に基づく次期の約束を決定する中で、この調査結果は人々があらゆる場所で大胆な気候変動対策を支持しているという確固たるエビデンスを提供しています。『みんなの気候投票』は従来、その意見を聞くことが最も難しかった集団を含め、世界各地の人々の声を反映するものだからです。事実、調査対象となった77か国のうち9か国の人々は、これまで一度も気候変動に関する世論調査に参加したことがありませんでした。今後2年間は、私たちが国際社会として、地球温暖化を1.5°C未満に抑えられる絶好のチャンスとなるでしょう。私たちは、政策立案者がUNDPの『気候の約束』イニシアチブを通じ、気候変動対策の計画を練る中で、その取り組みの強化を支援する準備を整えています」&nbsp;と語りました。</p><p>UNDPの「<a href="https://www.undp.org/ja/japan/climate-promise">気候の約束</a>」イニシアチブの下では、これまで100か国以上が第2次見直し期間中にNDCの改定強化版を提出していますが、うち91%が温室効果ガス排出量削減目標を引き上げたほか、93%の国は適応目標も強化しています。</p><p><strong>報告書全文：</strong><a href="https://peoplesclimate.vote/results-2024">報告書全文はこちらからダウンロードできます</a>。</p><p><strong>編集者向け注記</strong></p><p>「みんなの気候投票2024」は、UNDPとオックスフォード大学が実施した2度目の全世界的調査です。第1回の「みんなの気候投票」は2021年、人気のモバイルゲーム・アプリでの広告を通じ、50か国の人々を対象に実施されました。今回の調査方法は2021年の「みんなの気候投票」とは異なります。よって、2回の調査報告書の間で質問と回答の比較を行うことはできません。</p><p>2024年の調査には、人々の日常生活が気候変動によってどのような影響を受けているか、自国でどのような対策が取られていると感じているか、世界にどのような対策をしてほしいかに関する15の質問項目が含まれています。調査結果は、人々が気候変動についてどのように感じ、対応しているのかをこれまでに最も包括的な形で公表するものとなっています。</p><p>オックスフォード大学のチームは主として、データの処理と統計値の算出を担当しました。調査自体は国際的な世論調査会社のGeoPollが、無作為抽出によって携帯電話で実施しました。無作為抽出法により、どの国の誰にも同じ参加の可能性が与えられたのに対し、前回の調査ではブロードバンド接続のある人だけが対象となっていました。無作為抽出で選ばれなかった人には参加資格がなく、また、複数回の参加も一切、認められていません。</p><p>調査結果はオックスフォード大学の調査研究専門家が、調査対象国の年齢、ジェンダーおよび教育水準別の人口構成を反映する形でサンプルに重み付けたうえで照合、処理しました。</p><p>全回答者の中には、学校に通ったことのない人々が10%以上（9,321人）含まれていました。うち1,241人は、学校に通ったことのない60歳以上の女性でした。こうした人々は、調査で最も手の届きにくい集団の部類に属しています。調査対象77か国のうち9か国の人々は、以前に気候変動に関する調査を受けたことがありません。合法かつ実施可能な国では、18歳未満の子どもについても調査を行いました。&nbsp;</p><p>上記に引用した国別の推計には、±3ポイント以内の誤差があります。SIDSと一部地域に関する誤差は±1ポイントであり、大きな地域と世界全体の推計については、それよりも小さくなっています。全世界、各地域およりLDCについては、人口のカバー率が高いため、全体的な推計を行っています。一方、SDGSの数値は調査対象のSIDS 9か国の人口加重平均となっています。</p><p>全世界的な調査結果を含め、「みんなの気候投票」についてさらに詳しくは、<a href="http://peoplesclimate.vote/"><em>http://peoplesclimate.vote/</em></a>をご覧ください。</p><hr><p><strong>国連開発計画（UNDP）について</strong></p><p>UNDPは貧困や格差、気候変動といった不正に終止符を打つために闘う国連の主要機関です。170か国において、人間と地球のために総合的かつ恒久的な解決策を構築すべく、様々な専門家や連携機関からなる幅広いネットワークを通じ支援を行っています。 &nbsp;</p><p><strong>オックスフォード大学社会学部について</strong></p><p>オックスフォード大学社会学部は、社会学全般を対象とする画期的な実証研究における第一線の機関です。現代の喫緊の社会問題に取り組むため、実世界の課題に幅広い厳密な方法論を適用し、研究を行っています。また、共同研究も積極的に進めていることで、研究者には学問分野の境界線を越えて国際的なパートナーシップを培い、革新的な研究を模索する自由も生まれています。研究者が現時点で取り組んでいる研究テーマとしては、社会的な不平等や人口統計学、政治社会学、ジェンダーと家族、サイバー犯罪と司法、計算社会科学、新型コロナウイルス感染症（COVID-19）の世界的大流行（パンデミック）などが挙げられます。&nbsp;</p> </div></div></div> </div> </div> </div>
+      
+              </div>
+              <div class=" font-check">
+                  <h1 class="title">フォントチェック</h1>
+          
+                  <h2 class="heading">セカンドレベル見出し</h2>
+          
+                  <h3 class="heading">サードレベル見出し</h3>
+          
+                  <h4 class="heading">フォースレベル見出し</h4>
+          
+                  <h5 class="heading">ファイブレベル見出し</h5>
+          
+                  <h6 class="heading">シックスレベル見出し</h6>
+          
+                  <p class="paragraph">
+                      これは <strong>太字のテキスト</strong>、<br> これは <b> &lt;b&gt; タグを使用した太字のテキスト</b> です。<br>
+      ここでは <em>イタリック体のテキスト</em> を見ます。<br> これは <i> &lt;i&gt; タグを使用したイタリック体のテキスト</i> です。<br>
+      このテキストは <u>下線付き</u> です。
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      <small>これは &lt;small&gt; タグを使用した小さいテキストです</small><br>
+      これは <sub>下付き文字</sub> と <sup>上付き文字</sup> を含む通常のテキストです。<br>
+      ここに <mark>ハイライトされたテキスト</mark> があります。<br>
+      <del>このテキストは削除されました</del> <br> これは <ins>下線付き</ins> です。
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      右から左にテキストを表示: <bdo dir="rtl">右から左に書かれたテキスト。</bdo><br>
+      左から右にテキストを表示: <bdo dir="ltr">左から右に書かれたテキスト。</bdo>
+      
+                  </p>
+              
+                  <p class="paragraph">
+                      コードはこのように表示できます: <code>let x = 10;</code>。
+      
+                  </p>
+              
+                  <pre class="paragraph">
+                      このテキストは
+                      スペースと
+                      新しい行を保持して表示されます。
+      
+                  </pre>
+              
+                  <div>
+                      <blockquote class="paragraph">
+          <p>
+            これは重要なテキストや表現を強調するために通常使用される引用です。
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          短い引用: <q>これは短い引用です。</q>
+      </p>
+      <p class="paragraph">
+          このテキストは略語です: <abbr title="Cascading Style Sheets">UNDP</abbr>。
+      </p>
+      <p class="paragraph">
+          引用を表すテキスト: <cite>この引用は「1984」という本から来ています。</cite>
+      </p>
+      <p class="paragraph">
+          キーボード入力: <kbd>Ctrl + C</kbd>。<br>
+          プログラム出力: <samp>Error 404</samp>。<br>
+          <var>x</var> + <var>y</var> = <var>z</var> （プログラムの変数）。
+      </p>
+      <ul>
+          <li>最初のリスト項目</li>
+          <li>第二のリスト項目</li>
+          <li>第三のリスト項目</li>
+      </ul>
+      <p class="paragraph">
+          フォーム要素のラベル: <label for="input">お名前を入力してください:</label><br>
+          <input type="text" id="input" placeholder="あなたの名前">
+      </p>
+      <p class="paragraph">
+          アクションボタン: <button>クリックして</button>。
+      </p>
+      
+                  </div>
+              
+                  <div>
+                      <section>
+          <article>
+              <h6 class="heading">記事</h6>
+              <p>これは独立したコンテンツブロックです。</p>
+          </article>
+          <aside>
+              <p>このテキストはサイドコンテンツです。</p>
+          </aside>
+      </section>
+      
+                  </div>
+              
+                  <address>
+                      著者: ジョン・スミス<br>
+      メール: john@example.com
+      
+                  </address>
+              
+                  <table>
+                      <br>
+      <caption>
+          列車のスケジュール
+      </caption>
+      <thead>
+          <tr>
+              <th>列車番号</th>
+              <th>ルート</th>
+              <th>移動時間</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>ロンドン - パリ</td>
+              <td>5時間</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>ニューヨーク - シカゴ</td>
+              <td>7時間</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>オスロ - ワルシャワ</td>
+              <td>4時間</td>
+          </tr>
+      </tbody>
+      
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="grid-x">
+          <div class="cell medium-10 medium-offset-1">
+            <div class="grid-x footer-top">
+              <div class="cell medium-5">
+                <div class="footer-logo">
+                  <a href="https://www.undp.org">
+                    <img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/images/undp-logo-white.svg" alt="UNDP Logo" />
+                  </a>
+                  <h5 class="" tabindex="0" data-viewport="false">
+                    国際連合 <br> 開発計画
+                  </h5>
+                </div>
+              </div>
+              <div class="cell medium-5 show-large">
+                <ul class="footer-icons">
+                  <li><a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a></li>
+                  <li><a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a></li>
+                  <li>
+                    <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                  </li>
+                  <li><a href="https://twitter.com/undp/" class="twitter-x" title="Twitter">twitter</a></li>
+                  <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-x footer-bottom">
+              <div class="cell medium-5">
+                <p tabindex="0">© 2024 国際連合開発計画</p>
+              </div>
+              <div class="cell medium-6">
+                <ul class="footer-lists">
+                  <li><a href="https://www.undp.org/copyright-terms-use">利用規約</a></li>
+                </ul>
+                <div class="show-small">
+                  <ul class="footer-icons">
+                    <li>
+                      <a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                    </li>
+                    <li><a href="https://twitter.com/undp/" class="twitter" title="Twitter">twitter</a></li>
+                    <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="../assets/js/app.js"></script>
+  
+    </body>
+  </html>
+  

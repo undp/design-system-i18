@@ -1,0 +1,134 @@
+# generic info
+lang: en
+language: English
+cdn: https://cdn.jsdelivr.net/npm/@undp/design-system-assets@1/
+logo: undp
+undp:
+  text: United Nations Development Programme
+  html: United Nations <br>Development Programme
+
+# page metadata
+meta:
+  title: Font Check
+
+content:
+  link:
+    url: https://design.undp.org/
+    label: UNDP Design System
+  main:
+    title: Font Check
+    h2: Second Level Heading
+    h3: Third Level Heading
+    h4: Fourth Level Heading
+    h5: Fifth Level Heading
+    h6: Sixth Level Heading
+    paragraph1: |
+      This is <strong>bold text</strong>,<br> and this is <b>bold text using the &lt;b&gt; tag</b>.<br>
+      Here you see <em>italic text</em>,<br> and this is <i>italic text using the &lt;i&gt; tag</i>.<br>
+      This text is <u>underlined</u> using the &lt;u&gt; tag.
+    
+    paragraph2: |
+      <small>This is smaller text using the &lt;small&gt; tag</small><br>
+      This is normal text with <sub>subscript</sub> and <sup>superscript</sup>.<br>
+      Here is <mark>highlighted text</mark> using the &lt;mark&gt; tag.<br>
+      <del>This text is deleted</del> using the &lt;del&gt; tag,<br> and this is <ins>underlined</ins> using the &lt;ins&gt; tag.
+    
+    paragraph3: |
+      Displaying text right-to-left: <bdo dir="rtl">Text written from right to left.</bdo><br>
+      Displaying text left-to-right: <bdo dir="ltr">Text written from left to right.</bdo>
+    
+    paragraph4: |
+      You can display code like this: <code>let x = 10;</code>.
+     
+    paragraph5: |
+      This text is displayed
+                      with preserved spaces and
+                      new lines.
+    
+    paragraph6: |
+      <blockquote class="paragraph">
+          <p>
+            This is a quote that is usually used to emphasize important text or expressions.
+          </p>
+      </blockquote>
+      <p class="paragraph">
+          Short quote: <q>This is a short quote.</q>
+      </p>
+      <p class="paragraph">
+          This text is an acronym: <abbr title="Cascading Style Sheets">UNDP</abbr>.
+      </p>
+      <p class="paragraph">
+          Text representing a citation: <cite>This quote comes from the book "1984".</cite>
+      </p>
+      <p class="paragraph">
+          Keyboard input: <kbd>Ctrl + C</kbd>.<br>
+          Program output: <samp>Error 404</samp>.<br>
+          <var>x</var> + <var>y</var> = <var>z</var> (variables in the program).
+      </p>
+      <ul>
+          <li>First list item</li>
+          <li>Second list item</li>
+          <li>Third list item</li>
+      </ul>
+      <p class="paragraph">
+          Label for a form element: <label for="input">Enter your name:</label><br>
+          <input type="text" id="input" placeholder="Your name">
+      </p>
+      <p class="paragraph">
+          Action button: <button>Click me</button>.
+      </p>
+    
+    paragraph7: |
+      <section>
+          <article>
+              <h6 class="heading">Article</h6>
+              <p>This is a standalone content block.</p>
+          </article>
+          <aside>
+              <p>This text is side content.</p>
+          </aside>
+      </section>
+    
+    paragraph8: |
+      Author: John Smith<br>
+      Email: john@example.com
+    
+    paragraph9: |
+      <br>
+      <caption>
+          Train Schedule
+      </caption>
+      <thead>
+          <tr>
+              <th>Train Number</th>
+              <th>Route</th>
+              <th>Travel Time</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>433</td>
+              <td>London - Paris</td>
+              <td>5 hours</td>
+          </tr>
+          <tr>
+              <td>701</td>
+              <td>New York - Chicago</td>
+              <td>7 hours</td>
+          </tr>
+          <tr>
+              <td>258</td>
+              <td>Oslo - Warsaw</td>
+              <td>4 hours</td>
+          </tr>
+      </tbody>
+  footer:
+    socialLinks:
+      facebook: https://www.facebook.com/UNDP/
+      linkedin: https://www.linkedin.com/company/undp
+      instagram: https://www.instagram.com/UNDP/
+      twitter: https://twitter.com/undp/
+      youtube: https://www.youtube.com/UNDP
+    terms:
+      text: Terms of use
+      url: https://www.undp.org/copyright-terms-use

@@ -1,0 +1,65 @@
+// body {
+// 	font-family: "NotoSans", sans-serif;
+// }
+
+// body {
+// 	font-family: "Noto Sans", sans-serif;
+// 	font-family: "Noto Sans Arabic", sans-serif;
+// 	// font-family: "Noto Sans Georgian", sans-serif;
+//  // font-family: "Noto Sans Khmer", sans-serif;
+//  // font-family: "Noto Sans SC", sans-serif;
+//  // font-family: "Noto Sans JP", sans-serif;
+//  // font-family: "Noto Sans KR", sans-serif;
+// 	--undpds-font-family-proximanova: "Noto Sans Arabic", sans-serif;
+// 	--undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+// }
+
+// h1 {
+// 	font-family: "Noto Sans Arabic", sans-serif;
+// }
+
+.font-check {
+	padding-top: 30px;
+	border-top: 1px solid #000;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+.country-header {
+
+	.header {
+		position: static;
+		
+		.dropdown-language {
+			display: flex;
+		}
+	}
+}
+
+.dropdown-language button:focus:after,
+.dropdown-language button:focus:before,
+.dropdown-language button:hover:after,
+.dropdown-language button:hover:before {
+	filter: none;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 20px;
+
+	.paragraph {
+		line-height: 1.5;
+	}
+
+	.address {
+		color: #888;
+	}
+}
+
+.medium-offset-1 {
+	margin-inline-start: 8.3333333333%;
+}

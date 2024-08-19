@@ -1,0 +1,35 @@
+{{#with ka}}
+  <!doctype html>
+  <html class="no-js" lang="ka">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+      {{> meta}}
+      <style>
+        body {
+          font-family: "Noto Sans Georgian", sans-serif;
+        	--undpds-font-family-proximanova: "Noto Sans Georgian", sans-serif;
+        	--undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+        }
+
+        input[type=text] {
+          font-family: "Noto Sans Georgian", sans-serif;
+        }
+
+        pre {
+          font-family: "Noto Sans Georgian", sans-serif;
+        }
+      </style>  
+    </head>
+    <body id="top">
+  
+      {{> body}}
+  
+      <script src="{{@root.root}}assets/js/app.js"></script>
+  
+    </body>
+  </html>
+  {{/with}}
+  
