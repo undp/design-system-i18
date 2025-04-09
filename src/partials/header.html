@@ -61,6 +61,11 @@
 										<a href="{{@root.root}}ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
 									</li>
 							{{/ifequal}}
+							{{#ifequal lang "th"}}{{else}}
+							<li role="menuitem">
+								<a href="{{@root.root}}th/" lang="th" hreflang="th" tabindex="-1" style="font-family: 'Noto Sans Thai', sans-serif">ภาษาไทย	(Thai)</a>
+							</li>
+							{{/ifequal}}
 						</ul>
 					</div>
 				</div>

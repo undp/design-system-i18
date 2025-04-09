@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js" lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <title>ตรวจสอบแบบอักษร</title>
+    <meta name="description" content="" />
+    <link rel="canonical" href="th/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:site_name" content="undp" />
+    <meta property="og:url" content="th/" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="assets/img/" />
+    <meta property="og:image:width" content="1440" />
+    <meta property="og:image:height" content="768" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@undp" />
+    <link rel="alternate" hreflang="en" href="../" />
+    <link rel="alternate" hreflang="ar" href="../ar/" />
+    <link rel="alternate" hreflang="az" href="../az/" />
+    <link rel="alternate" hreflang="ku" href="../ku/" />
+    <link rel="alternate" hreflang="ka" href="../ka/" />
+    <link rel="alternate" hreflang="km" href="../km/" />
+    <link rel="alternate" hreflang="ne" href="../ne/" />
+    <link rel="alternate" hreflang="zh" href="../zh/" />
+    <link rel="alternate" hreflang="ja" href="../ja/" />
+    <link rel="alternate" hreflang="ko" href="../ko/" />
+    <link rel="alternate" hreflang="th" href="../th/" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Khmer:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+    
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/base-minimal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/input-fields.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/country-site-header.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/accordion.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/language-switcher.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/buttons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/css/components/newsletter-signup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../assets/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <style>
+      .country-header .header .top-right>:last-child {
+        margin-inline-end: 4rem;
+      }
+    </style>
+    <style>
+      body {
+        font-family: "Noto Sans Thai", sans-serif;
+        --undpds-font-family-proximanova: "Noto Sans Thai", sans-serif;
+        --undpds-font-family-sohnebreit: var(--undpds-font-family-proximanova);
+        font-weight: 350;
+      }
+
+      b, strong {
+        font-weight: bold;
+      }
+
+      input[type=text] {
+        font-family: "Noto Sans Thai", sans-serif;
+      }
+
+      pre {
+        font-family: "Noto Sans Thai", sans-serif;
+      }
+    </style>
+  </head>
+  <body id="top">
+
+    <header class="country-header">
+    	<div class="header">
+    		<div class="grid-container fluid">
+    			<div class="grid-x grid-margin-x">
+    				<div class="cell large-9 small-8 align-self-middle top-left">
+    					<a href="https://www.undp.org" class="logo">
+    						<img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/images/undp-logo-blue.svg" alt="UNDP Logo" />
+    					</a>
+    				</div>
+    				<div class="cell large-3 small-3 top-right language-switcher">
+    					<div class="dropdown-language">
+    						<button aria-expanded="false" class="blue"><span>ภาษาไทย</span></button>
+    						<ul role="menu">
+    							
+    									<li role="menuitem">
+    										<a href="../" lang="en" hreflang="en" tabindex="-1">English</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../ar/" lang="ar" hreflang="ar" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">العربية (Arabic)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../az/" lang="az" hreflang="az" tabindex="-1">Azərbaycan dili (Azerbaijani)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../ku/" lang="ku" hreflang="ku" tabindex="-1" style="font-family: 'Noto Sans Arabic', sans-serif">كوردی (Kurdish)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../ka/" lang="ka" hreflang="ka" tabindex="-1" style="font-family: 'Noto Sans Georgian', sans-serif">ქართული (Georgian)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../km/" lang="km" hreflang="km" tabindex="-1" style="font-family: 'Noto Sans Khmer', sans-serif">ខ្មែរ (Khmer)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../ne/" lang="ne" hreflang="ne" tabindex="-1">नेपाली (Nepali)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../zh/" lang="zh" hreflang="zh" tabindex="-1" style="font-family: 'Noto Sans SC', sans-serif">中文 (Chinese)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../ja/" lang="ja" hreflang="ja" tabindex="-1" style="font-family: 'Noto Sans JP', sans-serif">日本語 (Japanese)</a>
+    									</li>
+    							
+    									<li role="menuitem">
+    										<a href="../ko/" lang="ko" hreflang="ko" tabindex="-1" style="font-family: 'Noto Sans KR', sans-serif">한국어 (Korean)</a>
+    									</li>
+    													</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </header><main class="homepage">
+        
+      <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+            <div class="example">
+                <h2>Earth Hour 2025 เสาร์ที่ 22 มี.ค. ชวนปิดไฟ 1 ชั่วโมง ลดโลกร้อน</h2> <p>กทม. ชวนคนกรุงร่วมแสดงพลังและลดใช้พลังงาน ปิดไฟ 1 ชั่วโมง เพื่อลดโลกร้อน ในเวลา 2 ทุ่มครึ่ง ถึง 3 ทุ่มครึ่ง เสาร์ที่ 22 มี.ค. 68 พร้อมปักหมุดปิดไฟเชิงสัญลักษณ์ 5 แลนด์มาร์กกรุงเทพฯ</p> <p>วันที่ 21 มี.ค. 68 นายเอกวรัญญู อัมระปาล โฆษกของกรุงเทพมหานคร เผยถึงกิจกรรม 60+ Earth Hour 2025: ปิดไฟ 1 ชั่วโมง เพื่อลดโลกร้อนว่า สำหรับปี 2568 กรุงเทพมหานคร ร่วมกับภาคีเครือข่าย ยังคงเดินหน้ารณรงค์กิจกรรมปิดไฟ 1 ชั่วโมง เพื่อลดโลกร้อน ซึ่งปีนี้กำหนดจัดกิจกรรมในวันเสาร์ที่ 22 มีนาคม 2568 เวลา 20.30 – 21.30 น. ด้วยการขอความร่วมมือจากภาคีเครือข่ายทั้งองค์กรภาครัฐ เอกชน ผู้ประกอบการ ร้านค้า และประชาชน รวมทั้งสื่อมวลชนทุกแขนง ลดการใช้พลังงานและปิดไฟที่ไม่จำเป็น เช่น ไฟประดับ ไฟอาคาร ตึกสูง ป้ายโฆษณา ไฟบ้านเรือน และการถอดปลั๊กเครื่องใช้ไฟฟ้าที่ไม่ใช้งาน ลดการใช้เครื่องปรับอากาศในอาคารบ้านเรือน เป็นเวลา 1 ชั่วโมง โดยเชิญชวนร่วมแชร์การมีส่วนร่วมกิจกรรมในโซเชียลมีเดีย ด้วยการติดแฮชแท็ก คำว่า #EarthHour2025 หรือ #BiggestHourForEarth หรือ #MyHourForEarth</p>
+    
+            </div>
+            <div class=" font-check">
+                <h1 class="title">ตรวจสอบแบบอักษร</h1>
+        
+                <h2 class="heading">หัวข้อระดับสอง</h2>
+        
+                <h3 class="heading">หัวข้อระดับสาม</h3>
+        
+                <h4 class="heading">หัวข้อระดับสี่</h4>
+        
+                <h5 class="heading">หัวข้อระดับห้า</h5>
+        
+                <h6 class="heading">หัวข้อระดับหก</h6>
+        
+                <p class="paragraph">
+                    นี่คือ <strong>ข้อความตัวหนา</strong>,<br> และนี่คือ <b>ข้อความตัวหนาโดยใช้แท็ก &lt;b&gt;</b>.<br>
+    นี่คือ <em>ข้อความตัวเอียง</em>,<br> และนี่คือ <i>ข้อความตัวเอียงโดยใช้แท็ก &lt;i&gt;</i>.<br>
+    ข้อความนี้ <u>ขีดเส้นใต้</u> โดยใช้แท็ก &lt;u&gt;.
+    
+                </p>
+            
+                <p class="paragraph">
+                    <small>นี่คือข้อความขนาดเล็กโดยใช้แท็ก &lt;small&gt;</small><br>
+    นี่คือข้อความปกติพร้อม <sub>ตัวห้อย</sub> และ <sup>ตัวห้อยบน</sup>.<br>
+    นี่คือ <mark>ข้อความที่เน้น</mark> โดยใช้แท็ก &lt;mark&gt;.<br>
+    <del>ข้อความนี้ถูกลบ</del> โดยใช้แท็ก &lt;del&gt;,<br> และนี่คือ <ins>ขีดเส้นใต้</ins> โดยใช้แท็ก &lt;ins&gt;.
+    
+                </p>
+            
+                <p class="paragraph">
+                    แสดงข้อความจากขวาไปซ้าย: <bdo dir="rtl">ข้อความที่เขียนจากขวาไปซ้าย</bdo><br>
+    แสดงข้อความจากซ้ายไปขวา: <bdo dir="ltr">ข้อความที่เขียนจากซ้ายไปขวา</bdo>
+    
+                </p>
+            
+                <p class="paragraph">
+                    คุณสามารถแสดงโค้ดแบบนี้: <code>let x = 10;</code>.
+    
+                </p>
+            
+                <pre class="paragraph">
+                    ข้อความนี้แสดง
+                    พร้อมช่องว่างที่เก็บไว้และ
+                    บรรทัดใหม่.
+    
+                </pre>
+            
+                <div>
+                    <blockquote class="paragraph">
+        <p>
+          นี่คือคำพูดที่มักใช้เพื่อเน้นข้อความหรือคำพูดที่สำคัญ.
+        </p>
+    </blockquote>
+    <p class="paragraph">
+        คำพูดสั้น: <q>นี่คือคำพูดสั้น.</q>
+    </p>
+    <p class="paragraph">
+        ข้อความนี้เป็นตัวย่อ: <abbr title="Cascading Style Sheets">UNDP</abbr>.
+    </p>
+    <p class="paragraph">
+        ข้อความที่แสดงถึงการอ้างอิง: <cite>คำพูดนี้มาจากหนังสือ "1984".</cite>
+    </p>
+    <p class="paragraph">
+        การป้อนข้อมูลจากแป้นพิมพ์: <kbd>Ctrl + C</kbd>.<br>
+        ผลลัพธ์ของโปรแกรม: <samp>Error 404</samp>.<br>
+        <var>x</var> + <var>y</var> = <var>z</var> (ตัวแปรในโปรแกรม).
+    </p>
+    <ul>
+        <li>รายการแรก</li>
+        <li>รายการที่สอง</li>
+        <li>รายการที่สาม</li>
+    </ul>
+    <p class="paragraph">
+        ป้ายกำกับสำหรับองค์ประกอบฟอร์ม: <label for="input">กรอกชื่อของคุณ:</label><br>
+        <input type="text" id="input" placeholder="ชื่อของคุณ">
+    </p>
+    <p class="paragraph">
+        ปุ่มการกระทำ: <button>คลิกที่นี่</button>.
+    </p>
+    
+                </div>
+            
+                <div>
+                    <section>
+        <article>
+            <h6 class="heading">บทความ</h6>
+            <p>นี่คือบล็อกเนื้อหาแบบสแตนด์อโลน.</p>
+        </article>
+        <aside>
+            <p>ข้อความนี้เป็นเนื้อหาด้านข้าง.</p>
+        </aside>
+    </section>
+    
+                </div>
+            
+                <address>
+                    ผู้เขียน: จอห์น สมิธ<br>
+    อีเมล: john@example.com
+    
+                </address>
+            
+                <table>
+                    <br>
+    <caption>
+        ตารางเวลารถไฟ
+    </caption>
+    <thead>
+        <tr>
+            <th>หมายเลขรถไฟ</th>
+            <th>เส้นทาง</th>
+            <th>เวลาการเดินทาง</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>433</td>
+            <td>ลอนดอน - ปารีส</td>
+            <td>5 ชั่วโมง</td>
+        </tr>
+        <tr>
+            <td>701</td>
+            <td>นิวยอร์ก - ชิคาโก</td>
+            <td>7 ชั่วโมง</td>
+        </tr>
+        <tr>
+            <td>258</td>
+            <td>ออสโล - วอร์ซอ</td>
+            <td>4 ชั่วโมง</td>
+        </tr>
+    </tbody>
+    
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="grid-x">
+        <div class="cell medium-10 medium-offset-1">
+          <div class="grid-x footer-top">
+            <div class="cell medium-5">
+              <div class="footer-logo">
+                <a href="https://www.undp.org">
+                  <img src="https://cdn.jsdelivr.net/npm/@undp/design-system-assets/images/undp-logo-white.svg" alt="UNDP Logo" />
+                </a>
+                <h5 class="" tabindex="0" data-viewport="false">
+                  โครงการพัฒนาแห่ง <br>สหประชาชาติ
+                </h5>
+              </div>
+            </div>
+            <div class="cell medium-5 show-large">
+              <ul class="footer-icons">
+                <li><a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a></li>
+                <li>
+                  <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                </li>
+                <li><a href="https://twitter.com/undp/" class="twitter-x" title="Twitter">twitter</a></li>
+                <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid-x footer-bottom">
+            <div class="cell medium-5">
+              <p tabindex="0">© 2024 โครงการพัฒนาแห่งสหประชาชาติ</p>
+            </div>
+            <div class="cell medium-6">
+              <ul class="footer-lists">
+                <li><a href="https://www.undp.org/copyright-terms-use">เงื่อนไขการใช้งาน</a></li>
+              </ul>
+              <div class="show-small">
+                <ul class="footer-icons">
+                  <li>
+                    <a href="https://www.facebook.com/UNDP/" class="facebook" title="Facebook">facebook</a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/undp" class="linkedin" title="LinkedIn">linkedIn</a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                  </li>
+                  <li><a href="https://twitter.com/undp/" class="twitter" title="Twitter">twitter</a></li>
+                  <li><a href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/app.js"></script>
+
+  </body>
+</html>
+
